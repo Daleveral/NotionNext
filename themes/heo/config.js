@@ -14,8 +14,8 @@ const CONFIG = {
   HERO_TITLE_2: 'Chu',
   HERO_TITLE_3: 'Cor Cordium',
   HERO_TITLE_4: 'email',
-  HERO_TITLE_5: '2448926122@qq.com',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_5: 'Website of Dale ~',
+  HERO_TITLE_LINK: 'https://github.com/Daleveral',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
