@@ -10,11 +10,11 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: 'Dale',
-  HERO_TITLE_2: 'Chu',
-  HERO_TITLE_3: 'Cor Cordium',
-  HERO_TITLE_4: 'email',
-  HERO_TITLE_5: 'Website of Dale ~',
+  HERO_TITLE_1: 'Hello',
+  HERO_TITLE_2: 'World',
+  HERO_TITLE_3: 'return \'all right\'',
+  HERO_TITLE_4: 'L\'Internationale',
+  HERO_TITLE_5: 'Sera le genre humain',
   HERO_TITLE_LINK: 'https://github.com/Daleveral',
 
   // 英雄区显示三个置顶分类
