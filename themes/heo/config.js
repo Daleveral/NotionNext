@@ -18,7 +18,7 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://github.com/Daleveral',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'NatGeo', url: 'https://www.nationalgeographic.com/' },
+  HERO_CATEGORY_1: { title: 'National Geographic', url: 'https://www.nationalgeographic.com/' },
   HERO_CATEGORY_2: { title: 'Medium', url: 'https://medium.com/'},
   HERO_CATEGORY_3: { title: 'Hello GitHub', url: 'https://github.com/521xueweihan/HelloGitHub' },
 
