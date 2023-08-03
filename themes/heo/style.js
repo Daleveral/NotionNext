@@ -58,12 +58,6 @@ const Style = () => {
         }
     }
 
-    # Font size in my post article , set it 24px
-    .notion-frame .notion-text {
-        font-size: 24px;
-    }
-
-
   `}</style>
 }
 
