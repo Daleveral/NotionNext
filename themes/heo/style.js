@@ -5,7 +5,7 @@
  * @returns
  */
 const Style = () => {
-  return <style jsx global>{`
+    return <style jsx global>{`
     body {
         background-color:  #f7f9fe;
         overflow-x: hidden;
@@ -57,6 +57,12 @@ const Style = () => {
             transform: translateX(-50%);
         }
     }
+
+    # Font size in my post article , set it 24px
+    .notion-frame .notion-text {
+        font-size: 24px;
+    }
+
 
   `}</style>
 }
