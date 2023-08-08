@@ -63,18 +63,18 @@ const CONFIG = {
     {
       title_1: 'Swift',
       img_1: '/images/heo/swift.webp',
-      color_1: '#eb6840',
+      color_1: '#52d895',
       title_2: 'code',
       img_2: '/images/heo/code.webp',
-      color_2: '#ffb45e'
+      color_2: '#ffe040'
     },
     {
       title_1: 'python',
       img_1: '/images/heo/python.webp',
-      color_1: '#e9572b',
+      color_1: '#ffffff',
       title_2: 'CSS3',
       img_2: '/images/heo/css.webp',
-      color_2: '#2c51db'
+      color_2: '#101e9e'
     },
     {
       title_1: 'JS',
