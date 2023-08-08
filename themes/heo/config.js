@@ -63,18 +63,18 @@ const CONFIG = {
     {
       title_1: 'code',
       img_1: '/images/heo/code.webp',
-      color_1: '#d5acd8',
+      color_1: '#32cfb0',
       title_2: 'docker',
       img_2: '/images/heo/docker.webp',
       color_2: '#57b6e6'
     },
     {
-      title_1: 'git',
-      img_1: '/images/heo/git.webp',
-      color_1: '#ffaa00',
-      title_2: 'CSS3',
-      img_2: '/images/heo/css.webp',
-      color_2: '#101e9e'
+      title_1: 'css',
+      img_1: '/images/heo/css.webp',
+      color_1: '#101e9e',
+      title_2: 'git',
+      img_2: '/images/heo/git.webp',
+      color_2: '#ffaa00'
     },
     {
       title_1: 'JS',
