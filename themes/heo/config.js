@@ -63,10 +63,10 @@ const CONFIG = {
     {
       title_1: 'Swift',
       img_1: '/images/heo/swift.webp',
-      color_1: '#52d895',
-      title_2: 'code',
-      img_2: '/images/heo/code.webp',
-      color_2: '#ffe040'
+      color_1: '#d5acd8',
+      title_2: 'docker',
+      img_2: '/images/heo/docker.webp',
+      color_2: '#57b6e6'
     },
     {
       title_1: 'python',
@@ -88,9 +88,9 @@ const CONFIG = {
       title_1: 'Git',
       img_1: '/images/heo/git.webp',
       color_1: '#df5b40',
-      title_2: 'docker',
-      img_2: '/images/heo/docker.webp',
-      color_2: '#57b6e6'
+      title_2: 'swift',
+      img_2: '/images/heo/swift.webp',
+      color_2: '#edd3ff'
     }
   ],
 
