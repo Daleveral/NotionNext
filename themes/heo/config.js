@@ -45,9 +45,9 @@ const CONFIG = {
       color_2: '#ffa53d'
     },
     {
-      title_1: 'Docker',
-      img_1: '/images/heo/docker.webp',
-      color_1: '#57b6e6', 
+      title_1: 'ubuntu',
+      img_1: '/images/heo/ubuntu.webp',
+      color_1: '#f47421', 
       title_2: 'Photoshop',
       img_2: '/images/heo/ps.webp',
       color_2: '#4082c3'
@@ -56,9 +56,9 @@ const CONFIG = {
       title_1: 'VMWare',
       img_1: '/images/heo/vmware.webp',
       color_1: '#ffffff',
-      title_2: 'Python',
-      img_2: '/images/heo/python.webp',
-      color_2: '#ffffff'
+      title_2: 'html',
+      img_2: '/images/heo/html.webp',
+      color_2: '#e9572b'
     },
     {
       title_1: 'Swift',
@@ -69,8 +69,8 @@ const CONFIG = {
       color_2: '#ffb45e'
     },
     {
-      title_1: 'html',
-      img_1: '/images/heo/html.webp',
+      title_1: 'python',
+      img_1: '/images/heo/python.webp',
       color_1: '#e9572b',
       title_2: 'CSS3',
       img_2: '/images/heo/css.webp',
@@ -88,9 +88,9 @@ const CONFIG = {
       title_1: 'Git',
       img_1: '/images/heo/git.webp',
       color_1: '#df5b40',
-      title_2: 'datagrip',
-      img_2: '/images/heo/datagrip.webp',
-      color_2: '#000000'
+      title_2: 'docker',
+      img_2: '/images/heo/docker.webp',
+      color_2: '#57b6e6'
     }
   ],
 
