@@ -37,12 +37,12 @@ const CONFIG = {
   // 用户技能图标
   GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
-      img_1: '/images/heo/ae.webp',
-      color_1: '#989bf8',
-      title_2: 'Sketch',
-      img_2: '/images/heo/sketch.webp',
-      color_2: '#ffffff'
+      title_1: 'idea',
+      img_1: '/images/heo/idea.webp',
+      color_1: '#ffffff',
+      title_2: 'wireshark',
+      img_2: '/images/heo/wireshark.webp',
+      color_2: '#ffa53d'
     },
     {
       title_1: 'Docker',
@@ -69,9 +69,9 @@ const CONFIG = {
       color_2: '#ffb45e'
     },
     {
-      title_1: 'mysql',
-      img_1: '/images/heo/mysql.webp',
-      color_1: '#9f9fee',
+      title_1: 'html',
+      img_1: '/images/heo/html.webp',
+      color_1: '#e9572b',
       title_2: 'CSS3',
       img_2: '/images/heo/css.webp',
       color_2: '#2c51db'
@@ -80,9 +80,9 @@ const CONFIG = {
       title_1: 'JS',
       img_1: '/images/heo/js.webp',
       color_1: '#f7cb4f',
-      title_2: 'HTML',
-      img_2: '/images/heo/html.webp',
-      color_2: '#e9572b'
+      title_2: 'mysql',
+      img_2: '/images/heo/mysql.webp',
+      color_2: '#9f9fee'
     },
     {
       title_1: 'Git',
@@ -90,7 +90,7 @@ const CONFIG = {
       color_1: '#df5b40',
       title_2: 'datagrip',
       img_2: '/images/heo/datagrip.webp',
-      color_2: '#66c6b8'
+      color_2: '#000000'
     }
   ],
 
