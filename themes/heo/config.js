@@ -64,14 +64,14 @@ const CONFIG = {
       title_1: 'Swift',
       img_1: '/images/heo/swift.webp',
       color_1: '#eb6840',
-      title_2: 'Principle',
-      img_2: '/images/heo/principle.webp',
-      color_2: '#8f55ba'
+      title_2: 'code',
+      img_2: '/images/heo/code.webp',
+      color_2: '#ffb45e'
     },
     {
-      title_1: 'illustrator',
-      img_1: '/images/heo/ai.webp',
-      color_1: '#f29e39',
+      title_1: 'mysql',
+      img_1: '/images/heo/mysql.webp',
+      color_1: '#9f9fee',
       title_2: 'CSS3',
       img_2: '/images/heo/css.webp',
       color_2: '#2c51db'
@@ -88,9 +88,9 @@ const CONFIG = {
       title_1: 'Git',
       img_1: '/images/heo/git.webp',
       color_1: '#df5b40',
-      title_2: 'Rhino',
-      img_2: '/images/heo/rhino.webp',
-      color_2: '#1f1f1f'
+      title_2: 'datagrip',
+      img_2: '/images/heo/datagrip.webp',
+      color_2: '#66c6b8'
     }
   ],
 
