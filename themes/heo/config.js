@@ -61,17 +61,17 @@ const CONFIG = {
       color_2: '#e9572b'
     },
     {
-      title_1: 'Swift',
-      img_1: '/images/heo/swift.webp',
+      title_1: 'code',
+      img_1: '/images/heo/code.webp',
       color_1: '#d5acd8',
       title_2: 'docker',
       img_2: '/images/heo/docker.webp',
       color_2: '#57b6e6'
     },
     {
-      title_1: 'python',
-      img_1: '/images/heo/python.webp',
-      color_1: '#ffffff',
+      title_1: 'git',
+      img_1: '/images/heo/git.webp',
+      color_1: '#ffaa00',
       title_2: 'CSS3',
       img_2: '/images/heo/css.webp',
       color_2: '#101e9e'
@@ -85,9 +85,9 @@ const CONFIG = {
       color_2: '#9f9fee'
     },
     {
-      title_1: 'Git',
-      img_1: '/images/heo/git.webp',
-      color_1: '#df5b40',
+      title_1: 'python',
+      img_1: '/images/heo/python.webp',
+      color_1: '#ffffff',
       title_2: 'swift',
       img_2: '/images/heo/swift.webp',
       color_2: '#edd3ff'
