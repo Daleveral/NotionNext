@@ -37,9 +37,9 @@ const CONFIG = {
   // 用户技能图标
   GROUP_ICONS: [
     {
-      title_1: 'idea',
-      img_1: '/images/heo/idea.webp',
-      color_1: '#ffffff',
+      title_1: 'ps',
+      img_1: '/images/heo/ps.webp',
+      color_1: '#176fcc',
       title_2: 'wireshark',
       img_2: '/images/heo/wireshark.webp',
       color_2: '#ffa53d'
@@ -48,9 +48,9 @@ const CONFIG = {
       title_1: 'ubuntu',
       img_1: '/images/heo/ubuntu.webp',
       color_1: '#f47421', 
-      title_2: 'Photoshop',
-      img_2: '/images/heo/ps.webp',
-      color_2: '#4082c3'
+      title_2: 'idea',
+      img_2: '/images/heo/idea.webp',
+      color_2: '#ffffff'
     },
     {
       title_1: 'VMWare',
@@ -88,8 +88,8 @@ const CONFIG = {
       title_1: 'python',
       img_1: '/images/heo/python.webp',
       color_1: '#ffffff',
-      title_2: 'swift',
-      img_2: '/images/heo/swift.webp',
+      title_2: 'matlab',
+      img_2: '/images/heo/matlab.webp',
       color_2: '#edd3ff'
     }
   ],
