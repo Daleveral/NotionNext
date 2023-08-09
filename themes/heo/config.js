@@ -19,7 +19,7 @@ const CONFIG = {
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: 'National Geographic', url: 'https://www.nationalgeographic.com/' },
-  HERO_CATEGORY_2: { title: 'Medium', url: 'https://medium.com/'},
+  HERO_CATEGORY_2: { title: 'Medium', url: 'https://medium.com/' },
   HERO_CATEGORY_3: { title: 'Hello GitHub', url: 'https://github.com/521xueweihan/HelloGitHub' },
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
@@ -30,7 +30,7 @@ const CONFIG = {
     '🤖️ 数码科技爱好者',
     '🧱 团队小组发动机'
   ],
-  INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/Daleveral', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -45,7 +45,7 @@ const CONFIG = {
     {
       title_1: 'ubuntu',
       img_1: '/images/heo/ubuntu.webp',
-      color_1: '#f47421', 
+      color_1: '#f47421',
       title_2: 'idea',
       img_2: '/images/heo/idea.webp',
       color_2: '#ffffff'

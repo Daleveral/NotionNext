@@ -14,13 +14,13 @@ import Card from './Card'
  * @returns
  */
 export function InfoCard(props) {
-  const { siteInfo, notice } = props
-  const router = useRouter()
-  // 在文章详情页特殊处理
-  const isSlugPage = router.pathname === '/[...slug]'
+    const { siteInfo, notice } = props
+    const router = useRouter()
+    // 在文章详情页特殊处理
+    const isSlugPage = router.pathname === '/[...slug]'
 
-  return (
-        <Card className='bg-[#4f65f0] dark:bg-yellow-600 text-white flex flex-col w-72 overflow-hidden relative'>
+    return (
+        <Card className='bg-[#4f65f0] dark:bg-blue-600 text-white flex flex-col w-72 overflow-hidden relative'>
             {/* 信息卡牌第一行 */}
             <div className='flex justify-between'>
                 {/* 问候语 */}
@@ -53,22 +53,22 @@ export function InfoCard(props) {
                 <MoreButton />
             </div>
         </Card>
-  )
+    )
 }
 
 /**
  * 欢迎语
  */
 function GreetingsWords() {
-  const greetings = CONFIG.INFOCARD_GREETINGS
-  const [greeting, setGreeting] = useState(greetings[0])
-  // 每次点击，随机获取greetings中的一个
-  const handleChangeGreeting = () => {
-    const randomIndex = Math.floor(Math.random() * greetings.length)
-    setGreeting(greetings[randomIndex])
-  }
+    const greetings = CONFIG.INFOCARD_GREETINGS
+    const [greeting, setGreeting] = useState(greetings[0])
+    // 每次点击，随机获取greetings中的一个
+    const handleChangeGreeting = () => {
+        const randomIndex = Math.floor(Math.random() * greetings.length)
+        setGreeting(greetings[randomIndex])
+    }
 
-  return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-indigo-400 hover:bg-indigo-50  hover:text-indigo-950 dark:bg-yellow-500 dark:hover:text-white dark:hover:bg-black text-sm rounded-lg  duration-200 transition-colors'>
+    return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-indigo-400 hover:bg-indigo-50  hover:text-indigo-950 dark:bg-yellow-500 dark:hover:text-white dark:hover:bg-black text-sm rounded-lg  duration-200 transition-colors'>
         {greeting}
     </div>
 }
@@ -78,10 +78,10 @@ function GreetingsWords() {
  * @returns
  */
 function MoreButton() {
-  return <Link href='/about'>
-        <div className={'group bg-indigo-400 dark:bg-yellow-500 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
+    return <Link href='https://docs.tangly1024.com/about'>
+        <div className={'group bg-indigo-400 dark:bg-indigo-400 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
-            <div className='font-bold'>了解更多</div>
+            <div className='font-bold'>关于建站</div>
         </div>
     </Link>
 }
