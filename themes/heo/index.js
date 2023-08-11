@@ -255,10 +255,11 @@ const LayoutSlug = props => {
 
                     {/* 评论互动 */}
                     <div className="duration-200 overflow-x-auto px-5">
-                        <div className='text-2xl dark:text-white'><i className='far fa-comment-dots' />{locale.COMMON.COMMENTS}</div>
+                        <div className='text-xl dark:text-white'><i className='far fa-comment-dots' />{locale.COMMON.COMMENTS}</div>
                         <Comment frontMatter={post} className='' />
                     </div>
-                </div>}
+                </div>
+				}
             </div>
             <FloatTocButton {...props} />
 
