@@ -203,19 +203,61 @@ const BLOG = {
                   name: '风を共に舞う気持ち',
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
             },
             {
                   name: '王都グランセル',
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
             },
             {
                   name: 'You',
                   artist: 'Approaching Nirvana',
                   url: 'http://music.163.com/song/media/outer/url?id=1891437743.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'Young and Beautiful',
+                  artist: 'Lana Del Rey',
+                  url: 'http://music.163.com/song/media/outer/url?id=28952209.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'Dirty Paws',
+                  artist: 'Of Monsters And Men',
+                  url: 'http://music.163.com/song/media/outer/url?id=1890665790.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'Beautiful',
+                  artist: 'Virginia To Vegas',
+                  url: 'http://music.163.com/song/media/outer/url?id=29722661.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'We Are Young',
+                  artist: 'Fun, Janelle Monáe',
+                  url: 'http://music.163.com/song/media/outer/url?id=28329964.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'The Nights',
+                  artist: 'Avicii',
+                  url: 'http://music.163.com/song/media/outer/url?id=1826923389.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'That Girl',
+                  artist: 'Olly Murs',
+                  url: 'http://music.163.com/song/media/outer/url?id=864650750.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+            },
+            {
+                  name: 'You Raise Me Up',
+                  artist: 'Westlife',
+                  url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
+                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
             }
       ],
       MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
