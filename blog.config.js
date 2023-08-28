@@ -199,18 +199,7 @@ const BLOG = {
       MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
       MUSIC_PLAYER_AUDIO_LIST: [
             // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-            {
-                  name: '风を共に舞う気持ち',
-                  artist: 'Falcom Sound Team jdk',
-                  url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
-            },
-            {
-                  name: '王都グランセル',
-                  artist: 'Falcom Sound Team jdk',
-                  url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
-            },
+
             {
                   name: 'なんでもないや',
                   artist: 'Akie秋绘',
@@ -223,6 +212,18 @@ const BLOG = {
                   url: 'http://music.163.com/song/media/outer/url?id=1893923634.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
+            {
+                  name: '风を共に舞う気持ち',
+                  artist: 'Falcom Sound Team jdk',
+                  url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '王都グランセル',
+                  artist: 'Falcom Sound Team jdk',
+                  url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },            
             {
                   name: 'Only Time',
                   artist: 'Enya',
@@ -250,7 +251,10 @@ const BLOG = {
             {
                   name: "Take Me Hands",
                   artist: 'Cécile Corbel',
-                  url: 'http://music.163.com/song/media/outer/url?id=1500439504.mp3',
+                  // url: 'http://music.163.com/song/media/outer/url?id=1500439504.mp3',
+                  url: 'http://ws.stream.qqmusic.qq.com/C400004ejXG50nadQT.m4a?guid=951250128&vkey=\
+                        654AEF72BC3D97BC3EB02A1DED7405B9ADDC545D40B88E245F0EFED45D7DE62F626F8418EFAF\
+                        69CE0488F19E08AA9588D1A045496BE9D48C&uin=&fromtag=120032',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
@@ -300,6 +304,48 @@ const BLOG = {
                   artist: 'Westlife',
                   url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Mr.Moustafa',
+                  artist: 'Alexandre Desplat',
+                  url: 'http://music.163.com/song/media/outer/url?id=28289088.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'Gotta Have You',
+                  artist: 'The Weepies',
+                  url: 'http://music.163.com/song/media/outer/url?id=19572271.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'The Saltwater Room',
+                  artist: 'Owl City',
+                  url: 'http://music.163.com/song/media/outer/url?id=1807828.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'What Are Words',
+                  artist: 'Chris Medina',
+                  url: 'http://music.163.com/song/media/outer/url?id=1210496.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'NEW BOY',
+                  artist: '朴树',
+                  url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'                  
+            },
+            {
+                  name: 'Color Blind',
+                  artist: 'Matt B',
+                  url: 'http://music.163.com/song/media/outer/url?id=1910991521.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'New Soul',
+                  artist: 'Yael Naim',
+                  url: 'http://music.163.com/song/media/outer/url?id=2010944681.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             }
       ],
       MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
