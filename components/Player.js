@@ -15,7 +15,7 @@ const Player = () => {
     if (!meting && window.APlayer) {
       setPlayer(new window.APlayer({
         container: ref.current,
-        fixed: false,
+        fixed: true,
         lrcType: lrcType,
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
