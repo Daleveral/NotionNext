@@ -203,61 +203,103 @@ const BLOG = {
                   name: '风を共に舞う気持ち',
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: '王都グランセル',
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'なんでもないや',
+                  artist: 'Akie秋绘',
+                  url: 'http://music.163.com/song/media/outer/url?id=450795499.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Merry Christmas Mr. Lawrence',
+                  artist: '坂本龍一',
+                  url: 'http://music.163.com/song/media/outer/url?id=1893923634.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Only Time',
+                  artist: 'Enya',
+                  url: 'http://music.163.com/song/media/outer/url?id=29470947.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Yesterday Once More',
+                  artist: 'Carpenters',
+                  url: 'http://music.163.com/song/media/outer/url?id=3986241.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: "My Love",
+                  artist: 'Westlife',
+                  url: 'http://music.163.com/song/media/outer/url?id=2081191.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: "In the End",
+                  artist: 'Linkin Park',
+                  url: 'http://music.163.com/song/media/outer/url?id=16686470.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: "Take Me Hands",
+                  artist: 'Cécile Corbel',
+                  url: 'http://music.163.com/song/media/outer/url?id=1500439504.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'You',
                   artist: 'Approaching Nirvana',
                   url: 'http://music.163.com/song/media/outer/url?id=1891437743.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Young and Beautiful',
                   artist: 'Lana Del Rey',
                   url: 'http://music.163.com/song/media/outer/url?id=28952209.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Dirty Paws',
                   artist: 'Of Monsters And Men',
                   url: 'http://music.163.com/song/media/outer/url?id=1890665790.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Beautiful',
                   artist: 'Virginia To Vegas',
                   url: 'http://music.163.com/song/media/outer/url?id=29722661.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'We Are Young',
                   artist: 'Fun, Janelle Monáe',
                   url: 'http://music.163.com/song/media/outer/url?id=28329964.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'The Nights',
                   artist: 'Avicii',
                   url: 'http://music.163.com/song/media/outer/url?id=1826923389.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'That Girl',
                   artist: 'Olly Murs',
                   url: 'http://music.163.com/song/media/outer/url?id=864650750.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'You Raise Me Up',
                   artist: 'Westlife',
                   url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
-                  cover: 'https://bu.dusays.com/2023/08/28/64ec6157baf80.png'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             }
       ],
       MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
