@@ -252,9 +252,7 @@ const BLOG = {
                   name: "Take Me Hands",
                   artist: 'Cécile Corbel',
                   // url: 'http://music.163.com/song/media/outer/url?id=1500439504.mp3',
-                  url: 'http://ws.stream.qqmusic.qq.com/C400004ejXG50nadQT.m4a?guid=951250128&vkey=\
-                        654AEF72BC3D97BC3EB02A1DED7405B9ADDC545D40B88E245F0EFED45D7DE62F626F8418EFAF\
-                        69CE0488F19E08AA9588D1A045496BE9D48C&uin=&fromtag=120032',
+                  url: 'http://ws.stream.qqmusic.qq.com/C400004ejXG50nadQT.m4a?guid=372298882&vkey=5F29DF4373458B54386DC2C1424E9510D84954E7827DFEBB9FA0B299C801F978D5E8D34C083ABFD3021B3FEFAABD745CAFF352AFF104F88E&uin=&fromtag=120032',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
@@ -334,6 +332,12 @@ const BLOG = {
                   artist: '朴树',
                   url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'                  
+            },
+            {
+                  name: '春娇与志明',
+                  artist: '街道办',
+                  url: 'http://ws.stream.qqmusic.qq.com/C400002w7V442Zlc1I.m4a?guid=642448219&vkey=D57A6D505C98E5AAE9D53B7462812C5278B7CD8A5F22479682EFA27D94767E86C48D936638B4362A1DCBACB951DB9379BF038E5B88D8A80E&uin=&fromtag=120032',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: 'Color Blind',
