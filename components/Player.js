@@ -16,6 +16,7 @@ const Player = () => {
       setPlayer(new window.APlayer({
         container: ref.current,
         fixed: true,
+        mutex: false,
         lrcType: lrcType,
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
