@@ -354,37 +354,37 @@ const BLOG = {
             {
                   name: 'arhbo',
                   artist: 'Gims/Ozuna',
-                  url: 'http://music.163.com/#/song?id=2042622526',
+                  url: 'http://music.163.com/song/media/outer/url?id=2042622526.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: '莫斯科郊外的晚上',
                   artist: '中央音乐合唱团',
-                  url: 'http://music.163.com/#/song?id=5280398',
+                  url: 'http://music.163.com/song/media/outer/url?id=5280398.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: 'Sound of Silence',
                   artist: 'Simon & Garfunkel',
-                  url: 'http://music.163.com/#/song?id=491424530',
+                  url: 'http://music.163.com/song/media/outer/url?id=491424530.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: 'Hayya Hayya',
                   artist: 'Trinidad Cardona,DaVido,Aisha',
-                  url: 'http://music.163.com/#/song?id=1933800693',
+                  url: 'http://music.163.com/song/media/outer/url?id=1933800693.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: 'Bella Ciao',
                   artist: 'Yves Montand',
-                  url: 'http://music.163.com/#/song?id=28482611',
+                  url: 'http://music.163.com/song/media/outer/url?id=28482611.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: 'La Marseillaise',
                   artist: 'Georges Delerue',
-                  url: 'http://music.163.com/#/song?id=1384539',
+                  url: 'http://music.163.com/song/media/outer/url?id=1384539.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
