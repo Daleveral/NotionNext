@@ -223,7 +223,7 @@ const BLOG = {
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
-            },            
+            },
             {
                   name: 'Only Time',
                   artist: 'Enya',
@@ -331,7 +331,7 @@ const BLOG = {
                   name: 'NEW BOY',
                   artist: '朴树',
                   url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'                  
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             },
             {
                   name: '春娇与志明',
@@ -349,6 +349,60 @@ const BLOG = {
                   name: 'New Soul',
                   artist: 'Yael Naim',
                   url: 'http://music.163.com/song/media/outer/url?id=2010944681.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'arhbo',
+                  artist: 'Gims/Ozuna',
+                  url: 'http://music.163.com/#/song?id=2042622526',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: '莫斯科郊外的晚上',
+                  artist: '中央音乐合唱团',
+                  url: 'http://music.163.com/#/song?id=5280398',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'Sound of Silence',
+                  artist: 'Simon & Garfunkel',
+                  url: 'http://music.163.com/#/song?id=491424530',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'Hayya Hayya',
+                  artist: 'Trinidad Cardona,DaVido,Aisha',
+                  url: 'http://music.163.com/#/song?id=1933800693',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'Bella Ciao',
+                  artist: 'Yves Montand',
+                  url: 'http://music.163.com/#/song?id=28482611',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'La Marseillaise',
+                  artist: 'Georges Delerue',
+                  url: 'http://music.163.com/#/song?id=1384539',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: '华沙曲',
+                  artist: '奶酪 AmerUzily,觉醒之声合唱团',
+                  url: 'http://music.163.com/song/media/outer/url?id=1874138846.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: 'L\'Internationale',
+                  artist: 'Les Coeurs Révolutionnaires',
+                  url: 'http://music.163.com/song/media/outer/url?id=542146410.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+            },
+            {
+                  name: '国际歌',
+                  artist: '中央乐团合唱队',
+                  url: 'http://music.163.com/song/media/outer/url?id=5281551.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
             }
       ],
@@ -503,7 +557,7 @@ const BLOG = {
 
       // 作废配置
       AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
-      TITLE: process.env.NEXT_PUBLIC_TITLE || 'Welcome to My Web ^_^' , // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
+      TITLE: process.env.NEXT_PUBLIC_TITLE || 'Welcome to My Web ^_^', // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
       HOME_BANNER_IMAGE:
             process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || '/bg_image.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
       DESCRIPTION:
