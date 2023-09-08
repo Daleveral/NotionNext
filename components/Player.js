@@ -17,8 +17,8 @@ const Player = () => {
         container: ref.current,
         fixed: true,
         lrcType: lrcType,
-        listMaxHeight: 1,
-        theme: '#FFD9FA',
+        listMaxHeight: 480px,
+        theme: '#ffd9fa',
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         audio: BLOG.MUSIC_PLAYER_AUDIO_LIST
