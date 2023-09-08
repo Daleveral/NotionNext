@@ -252,7 +252,7 @@ const BLOG = {
                   name: "Take Me Hands",
                   artist: 'Cécile Corbel',
                   // url: 'http://music.163.com/song/media/outer/url?id=1500439504.mp3',
-                  url: 'http://ws.stream.qqmusic.qq.com/C400004ejXG50nadQT.m4a?guid=372298882&vkey=5F29DF4373458B54386DC2C1424E9510D84954E7827DFEBB9FA0B299C801F978D5E8D34C083ABFD3021B3FEFAABD745CAFF352AFF104F88E&uin=&fromtag=120032',
+                  url: 'http://ws.stream.qqmusic.qq.com/C400004ejXG50nadQT.m4a?guid=861807670&vkey=1BB67FD1629F409C07211282A043C0E61A4E5A2A8018AB65F5764D84358DFE0A9879873593EE44F2AA259AFA7371435EFFDA67EB0DAD1923&uin=&fromtag=120032',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
@@ -307,103 +307,103 @@ const BLOG = {
                   name: 'Mr.Moustafa',
                   artist: 'Alexandre Desplat',
                   url: 'http://music.163.com/song/media/outer/url?id=28289088.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Gotta Have You',
                   artist: 'The Weepies',
                   url: 'http://music.163.com/song/media/outer/url?id=19572271.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'The Saltwater Room',
                   artist: 'Owl City',
                   url: 'http://music.163.com/song/media/outer/url?id=1807828.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'What Are Words',
                   artist: 'Chris Medina',
                   url: 'http://music.163.com/song/media/outer/url?id=1210496.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'NEW BOY',
                   artist: '朴树',
                   url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: '春娇与志明',
                   artist: '街道办',
-                  url: 'http://ws.stream.qqmusic.qq.com/C400002w7V442Zlc1I.m4a?guid=642448219&vkey=D57A6D505C98E5AAE9D53B7462812C5278B7CD8A5F22479682EFA27D94767E86C48D936638B4362A1DCBACB951DB9379BF038E5B88D8A80E&uin=&fromtag=120032',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  url: 'http://ws.stream.qqmusic.qq.com/C400002w7V442Zlc1I.m4a?guid=391648855&vkey=07D8EE35AB6170C9F3F6D660AD985529D587B187FC880D957A0FE90595F4A9B7A57F11CCE0F530AFCD24790C3B6192AC03BC2266F6E86D4D&uin=&fromtag=120032',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Color Blind',
                   artist: 'Matt B',
                   url: 'http://music.163.com/song/media/outer/url?id=1910991521.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'New Soul',
                   artist: 'Yael Naim',
                   url: 'http://music.163.com/song/media/outer/url?id=2010944681.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'arhbo',
                   artist: 'Gims/Ozuna',
                   url: 'http://music.163.com/song/media/outer/url?id=2042622526.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: '莫斯科郊外的晚上',
                   artist: '中央音乐合唱团',
                   url: 'http://music.163.com/song/media/outer/url?id=5280398.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Sound of Silence',
                   artist: 'Simon & Garfunkel',
                   url: 'http://music.163.com/song/media/outer/url?id=491424530.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Hayya Hayya',
                   artist: 'Trinidad Cardona,DaVido,Aisha',
                   url: 'http://music.163.com/song/media/outer/url?id=1933800693.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'Bella Ciao',
                   artist: 'Yves Montand',
                   url: 'http://music.163.com/song/media/outer/url?id=28482611.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'La Marseillaise',
                   artist: 'Georges Delerue',
                   url: 'http://music.163.com/song/media/outer/url?id=1384539.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: '华沙曲',
                   artist: '奶酪 AmerUzily,觉醒之声合唱团',
                   url: 'http://music.163.com/song/media/outer/url?id=1874138846.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: 'L\'Internationale',
                   artist: 'Les Coeurs Révolutionnaires',
                   url: 'http://music.163.com/song/media/outer/url?id=542146410.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
                   name: '国际歌',
                   artist: '中央乐团合唱队',
                   url: 'http://music.163.com/song/media/outer/url?id=5281551.mp3',
-                  cover: 'https://i1.sndcdn.com/artworks-000074774731-7q0q1a-t500x500.jpg'
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             }
       ],
       MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS

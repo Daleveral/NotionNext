@@ -17,6 +17,7 @@ const Player = () => {
         container: ref.current,
         fixed: true,
         lrcType: lrcType,
+        listMaxHeight: 420,
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         audio: BLOG.MUSIC_PLAYER_AUDIO_LIST
@@ -36,15 +37,15 @@ const Player = () => {
       />
       {meting
         ? <meting-js
-            fixed="true"
-            type="playlist"
-            preload="auto"
-            lrc-type={BLOG.MUSIC_PLAYER_METING_LRC_TYPE}
-            autoplay={autoPlay}
-            order={BLOG.MUSIC_PLAYER_ORDER}
-            server={BLOG.MUSIC_PLAYER_METING_SERVER}
-            id={BLOG.MUSIC_PLAYER_METING_ID}
-          />
+          fixed="true"
+          type="playlist"
+          preload="auto"
+          lrc-type={BLOG.MUSIC_PLAYER_METING_LRC_TYPE}
+          autoplay={autoPlay}
+          order={BLOG.MUSIC_PLAYER_ORDER}
+          server={BLOG.MUSIC_PLAYER_METING_SERVER}
+          id={BLOG.MUSIC_PLAYER_METING_ID}
+        />
         : <div ref={ref} data-player={player} />
       }
     </div>
