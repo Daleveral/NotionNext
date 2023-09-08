@@ -17,7 +17,7 @@ const Player = () => {
         container: ref.current,
         fixed: true,
         lrcType: lrcType,
-        listMaxHeight: 60,
+        listMaxHeight: 15,
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         audio: BLOG.MUSIC_PLAYER_AUDIO_LIST
