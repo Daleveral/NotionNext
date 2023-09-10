@@ -46,8 +46,8 @@ export function InfoCard(props) {
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
                     </div>
                     <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-purple-200 dark:hover:bg-black hover:bg-white'>
-                        <Link href={CONFIG.INFO_CARD_URL}><i className='fab fa-github text-xl' />
-                        </Link>
+                        <a href={CONFIG.INFO_CARD_URL} target="_blank"><i className='fab fa-github text-xl' />
+                        </a>
                     </div>
                 </div>
                 <MoreButton />
@@ -78,10 +78,10 @@ function GreetingsWords() {
  * @returns
  */
 function MoreButton() {
-    return <Link href='https://docs.tangly1024.com/about'>
+    return <a href='https://docs.tangly1024.com/about' target="_blank">
         <div className={'group bg-indigo-400 dark:bg-indigo-400 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>关于建站</div>
         </div>
-    </Link>
+    </a>
 }
