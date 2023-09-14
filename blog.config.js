@@ -310,6 +310,12 @@ const BLOG = {
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
+                  name: 'Waiting for Love',
+                  artist: 'Avicii',
+                  url: 'http://music.163.com/song/media/outer/url?id=1842927464.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
                   name: 'Gotta Have You',
                   artist: 'The Weepies',
                   url: 'http://music.163.com/song/media/outer/url?id=19572271.mp3',
@@ -373,6 +379,54 @@ const BLOG = {
                   name: 'Hayya Hayya',
                   artist: 'Trinidad Cardona,DaVido,Aisha',
                   url: 'http://music.163.com/song/media/outer/url?id=1933800693.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'What Makes You Beautiful',
+                  artist: 'One Direction',
+                  url: 'http://music.163.com/song/media/outer/url?id=27218979.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '海阔天空',
+                  artist: 'Beyond',
+                  url: 'http://music.163.com/song/media/outer/url?id=1357374736.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '喜欢你',
+                  artist: 'Beyond',
+                  url: 'http://music.163.com/song/media/outer/url?id=346163.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Go West',
+                  artist: 'Pet Shop Boys',
+                  url: 'http://music.163.com/song/media/outer/url?id=27198266.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Iridescent',
+                  artist: 'Linkin Park',
+                  url: 'http://music.163.com/song/media/outer/url?id=25639052.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '亡命之徒',
+                  artist: '纵贯线',
+                  url: 'http://music.163.com/song/media/outer/url?id=5237863.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '起风了',
+                  artist: '买辣椒也用券',
+                  url: 'http://music.163.com/song/media/outer/url?id=1330348068.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '小城大事',
+                  artist: '杨千嬅',
+                  url: 'http://music.163.com/song/media/outer/url?id=1357379611.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
