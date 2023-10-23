@@ -251,8 +251,7 @@ const BLOG = {
             {
                   name: "Take Me Hands",
                   artist: 'Cécile Corbel',
-                  // url: 'http://music.163.com/song/media/outer/url?id=1500439504.mp3',
-                  url: 'http://ws.stream.qqmusic.qq.com/C400004ejXG50nadQT.m4a?guid=861807670&vkey=1BB67FD1629F409C07211282A043C0E61A4E5A2A8018AB65F5764D84358DFE0A9879873593EE44F2AA259AFA7371435EFFDA67EB0DAD1923&uin=&fromtag=120032',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/takemehands.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
@@ -340,12 +339,6 @@ const BLOG = {
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
-                  name: '春娇与志明',
-                  artist: '街道办',
-                  url: 'http://ws.stream.qqmusic.qq.com/C400002w7V442Zlc1I.m4a?guid=391648855&vkey=07D8EE35AB6170C9F3F6D660AD985529D587B187FC880D957A0FE90595F4A9B7A57F11CCE0F530AFCD24790C3B6192AC03BC2266F6E86D4D&uin=&fromtag=120032',
-                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
-            },
-            {
                   name: 'Color Blind',
                   artist: 'Matt B',
                   url: 'http://music.163.com/song/media/outer/url?id=1910991521.mp3',
@@ -358,7 +351,7 @@ const BLOG = {
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
-                  name: 'arhbo',
+                  name: 'arhbo ( 球员入阵 )',
                   artist: 'Gims/Ozuna',
                   url: 'http://music.163.com/song/media/outer/url?id=2042622526.mp3',
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
@@ -427,6 +420,114 @@ const BLOG = {
                   name: '小城大事',
                   artist: '杨千嬅',
                   url: 'http://music.163.com/song/media/outer/url?id=1357379611.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'ahbho',
+                  artist: 'Gims/Ozuna',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/arhbo.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '春娇与志明',
+                  artist: '街道办',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/cjzm.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '单车',
+                  artist: '陈奕迅',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/danche.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '欢乐颂',
+                  artist: '贝多芬',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/hls.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name:  '七月上',
+                  artist: 'Jam',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/hls.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },            
+            {
+                  name: 'Summer',
+                  artist: '久石让',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/summer.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '再见',
+                  artist: '张震岳',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/再见-张震岳.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '富士山下',
+                  artist: '陈奕迅',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/富士山下-陈奕迅.m4a',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '大千世界',
+                  artist: '许嵩',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/大千世界 - 许嵩.mp3',
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '爱在西元前', 
+                  artist: '周杰伦',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/aizxyq.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Amani', 
+                  artist: 'Beyond',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/amani.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Battle Symphony', 
+                  artist: 'Linkin Park',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/battlesphn.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '北京东路的日子', 
+                  artist: '群星',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/bjeastr.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'Illusionary Daytime', 
+                  artist: 'Shirfine',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/illudtm.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'PLANET', 
+                  artist: 'ラムジ',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/planet.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '晴天', 
+                  artist: '周杰伦',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/qingtian.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: '四季予你', 
+                  artist: '陈响',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/sijiyuni-cc.mp3', 
+                  cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
+            },
+            {
+                  name: 'いつも何度でも', 
+                  artist: '木村弓',
+                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycy-cc.mp3', 
                   cover: 'https://i1.sndcdn.com/artworks-sfwuiqUdyzDXdyts-bz9zgg-t500x500.jpg'
             },
             {
