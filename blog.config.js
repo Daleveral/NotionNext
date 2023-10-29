@@ -249,12 +249,6 @@ const BLOG = {
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
-                  name: "Take Me Hands",
-                  artist: 'Cécile Corbel',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/takemehands.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
                   name: 'You',
                   artist: 'Approaching Nirvana',
                   url: 'http://music.163.com/song/media/outer/url?id=1891437743.mp3',
@@ -423,117 +417,117 @@ const BLOG = {
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
+                  name: "Take Me Hands",
+                  artist: 'Cécile Corbel',
+                  url: 'https://cs2-1v4.vkuseraudio.net/s/v1/acmp/rxXuJ_5EEDurzF9WHkXyOU5DPytmutdPYr7_pkjXvUxMoxqLirbWMOzk84LSRiNOs5BofT3H2jJie9k3lrLCAaGesLoLeWEFnqCAV4HQsnGq-uOsaAIypiQSYl05tQfs5C-QFGydzwwaZRFfZLmU_7l0RwmGq1KMaREU87XVf8DVvinUZQ.mp3?siren=1',
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            {
                   name: 'ahbho',
                   artist: 'Gims/Ozuna',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/arhbo.mp3',
+                  url: 'https://cs2-14v4.vkuseraudio.net/s/v1/acmp/MQ9f4w8H2A8qaOjPVw-nF4Wu5wbfThQYfXu4UOo0RzTcPev2mwFneWFL-fBk-2BY8TBBqb-jZdkUzeYcAN2OHqdCKOleVo6ccHhPuXeiI_rAFTDnzS1wHeBocsi7E0ekNlUqyx_7Xng-X_5WxgTgi7W0ycBpnEfuSl9Y80uQe3cRyWMvqA.mp3?siren=1',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
                   name: '春娇与志明',
                   artist: '街道办',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/cjzm.mp3',
+                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/9pwY8bC3mnD12_UGRU4jHKR5_ntHd1GsOgrnawEYdF4mj7fRpi_bs7r_0OGSPj7cVilqveI6GJIaNQwq5WZ1Ai_bOYOywgUFxE8s9DUPTMPjcWyIhFmScrnrHdfzKYmCMI88-lUQCqKRuStQfmMwsYnHTNoaUlZTG5l4.mp3',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
                   name: '单车',
                   artist: '陈奕迅',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/danche.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: '欢乐颂',
-                  artist: '贝多芬',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/hls.mp3',
+                  url: 'https://slider.kz/513889491_456239139/211/cs1-76v4/s/v1/acmp/qKupXrVJLSw5bsEFeKtvL3KIYzMYIhPeNVXW-kAe46NYPUzZ0qWa99TfIGl0T2x2lkZrRZ8wEi7OZJbCxYOua0n9_zQxSHSHwmT1-Qt7BhtcBZ78dWO9VT5xmeMhdqK2g-tja5S8fxdVXV5qObyS4KsBuLeZbRtJxWkszLud6Fu9JK9k3g/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E5%8D%95%E8%BD%A6.mp3', 
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
                   name:  '七月上',
                   artist: 'Jam',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/qys.mp3',
+                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/ldvAipkcftvSiDvM9dHAePDZSc2uEhu-jpHxDGYMwZhVDX8d_7i8QaZ6lB7_OSJ4L2vJ5p7qT4iQAjnoTDDSaZaRTciSwuh8QmYV6i3KKnGRhBDtTUkv-YQJZCzdgiAcyLt73musFT2e2M0KHyfvzPHOcTz4PCpKQ02X.mp3',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },            
             {
                   name: 'Summer',
                   artist: '久石让',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/summer.mp3',
+                  url: 'https://cs1-43v4.vkuseraudio.net/s/v1/acmp/bkex139a2QkO7mdyREQpsm2NJPCb7AYzjS_tnEjPykgM8ZhOSkE6EaXF-iE9KKhfvdrqG1zgmlY9v43RNAVfiYeEJcg34gGv0VU2Rs6VXHjn0oGljmgjiH75nVm8ZNOLb5vR9KKtGYlv4joJm8PHfQ3pvMHbA2X0-N7K4BjFMmVHQXHv4g.mp3?siren=1',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
                   name: '再见',
                   artist: '张震岳',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/再见-张震岳.mp3',
+                  url: 'https://slider.kz/176586548_456239045/184/cs1-40v4/s/v1/acmp/m19BQ4svyNng5AFsAH8epdcf4it7chqrAXVpHtOjvrqfnQEolpLZj7sQ0d4x89XB7cuyzm6s_qmmC8VnmQJJJCtbAA7xpbXyXPfjJ-5Y9WpUsXelajtm-AbJuWwPK1fZ4RnYIYpxebKrIpOthzIj5d_yRCXYyr0iMpmjpZrzn6D1pI3M5A/%E5%BC%A0%E9%9C%87%E5%B2%B3%20-%20%E5%86%8D%E8%A7%81.mp3',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
                   name: '富士山下',
                   artist: '陈奕迅',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/富士山下-陈奕迅.m4a',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: '大千世界',
-                  artist: '许嵩',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/大千世界 - 许嵩.mp3',
+                  url: 'http://music.163.com/song/media/outer/url?id=1851228561.mp3',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
                   name: '爱在西元前', 
                   artist: '周杰伦',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/aizxyq.mp3', 
+                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/DRtXaiUd764bLLNe4hg8_CVlYH_orc3IqkViT98Cq6M4P-0H8FvWyLSqFwhrxQx1VVnEAxORbZ7A3Gi6I1xLul3Z3jgj5UNHQO_hiVSA-r3S3rQGXGeDBWDQuSXHl4xozN_OaqVeCgymT5GCKVv8cpjZQmwORl1ttpJb.mp3', 
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
-            {
-                  name: 'Amani', 
-                  artist: 'Beyond',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/amani.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: 'Battle Symphony', 
-                  artist: 'Linkin Park',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/battlesphn.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: '北京东路的日子', 
-                  artist: '群星',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/bjeastr.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: 'Illusionary Daytime', 
-                  artist: 'Shirfine',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/illudtm.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: 'PLANET', 
-                  artist: 'ラムジ',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/planet.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: '晴天', 
-                  artist: '周杰伦',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/qingtian.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: '四季予你', 
-                  artist: '陈响',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/sijiyuni-cc.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
-                  name: 'いつも何度でも', 
-                  artist: '木村弓',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycz-cc.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
+            // {
+            //       name: '大千世界',
+            //       artist: '许嵩',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/大千世界 - 许嵩.mp3',
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: 'Amani', 
+            //       artist: 'Beyond',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/amani.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: 'Battle Symphony', 
+            //       artist: 'Linkin Park',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/battlesphn.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: '北京东路的日子', 
+            //       artist: '群星',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/bjeastr.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: 'Illusionary Daytime', 
+            //       artist: 'Shirfine',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/illudtm.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: 'PLANET', 
+            //       artist: 'ラムジ',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/planet.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: '晴天', 
+            //       artist: '周杰伦',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/qingtian.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: '四季予你', 
+            //       artist: '陈响',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/sijiyuni-cc.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
+            // {
+            //       name: 'いつも何度でも', 
+            //       artist: '木村弓',
+            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycz-cc.mp3', 
+            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            // },
             {
                   name: '云烟成雨',
                   artist: '房东的猫',
-                  url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycy-cc.mp3', 
+                  url: 'https://slider.kz/474499228_456610702/241/cs2-14v4/s/v1/acmp/Ck3Kogt56r-bYVpLrf8n8mjw4vcaHu6g3aUnZlPWFVcB8Fle4RJlXrF9W8RxZNM0LIyyZx4GxU4yispHNTqZXx-l4yLPzUEpjFMC2_rBxWM-Rddhe9tEfc7nnAjvbepjPFk3dO_RtTTb8uQmZDWdrwcWL3nl6GLR6txZb_ZijkcUgVP4jg/%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB%20-%20%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.mp3', 
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
