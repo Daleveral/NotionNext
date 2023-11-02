@@ -18,6 +18,8 @@ const Player = () => {
         fixed: true,
         mutex: false,
         lrcType: lrcType,
+        theme: '#FFFFFF',
+        preload: 'auto', // 预加载
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         listMaxHeight: '500px',
@@ -34,7 +36,9 @@ const Player = () => {
       <link
         rel="stylesheet"
         type="text/css"
-        href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
+        // aplayer css 
+        // href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
+        href="https://cdn.jsdelivr.net/gh/Daleveral/css/Aplayer.min.css"
       />
       {meting
         ? <meting-js
