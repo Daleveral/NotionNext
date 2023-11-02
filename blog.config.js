@@ -110,10 +110,12 @@ const BLOG = {
       PRISM_JS_AUTO_LOADER: 'https://npm.elemecdn.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js',
 
       // 代码主题 @see https://github.com/PrismJS/prism-themes
-      PRISM_THEME_PREFIX_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
-      PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || false, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
-      PRISM_THEME_LIGHT_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-solarizedlight.css', // 浅色模式主题
-      PRISM_THEME_DARK_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css', // 深色模式主题
+      // PRISM_THEME_PREFIX_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
+      PRISM_THEME_PREFIX_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-duotone-dark.css', 
+      // PRISM_THEME_PREFIX_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-shades-of-purple.css', 
+      PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
+      PRISM_THEME_LIGHT_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-shades-of-purple.css', // 浅色模式主题
+      PRISM_THEME_DARK_PATH: 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-duotone-dark.css', // 深色模式主题
 
       CODE_MAC_BAR: process.env.NEXT_PUBLIC_CODE_MAC_BAR || true, // 代码左上角显示mac的红黄绿图标
       CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || false, // 是否显示行号
@@ -429,27 +431,39 @@ const BLOG = {
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
-                  name: '春娇与志明',
-                  artist: '街道办',
-                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/9pwY8bC3mnD12_UGRU4jHKR5_ntHd1GsOgrnawEYdF4mj7fRpi_bs7r_0OGSPj7cVilqveI6GJIaNQwq5WZ1Ai_bOYOywgUFxE8s9DUPTMPjcWyIhFmScrnrHdfzKYmCMI88-lUQCqKRuStQfmMwsYnHTNoaUlZTG5l4.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
-            {
                   name: '单车',
                   artist: '陈奕迅',
                   url: 'https://slider.kz/513889491_456239139/211/cs1-76v4/s/v1/acmp/qKupXrVJLSw5bsEFeKtvL3KIYzMYIhPeNVXW-kAe46NYPUzZ0qWa99TfIGl0T2x2lkZrRZ8wEi7OZJbCxYOua0n9_zQxSHSHwmT1-Qt7BhtcBZ78dWO9VT5xmeMhdqK2g-tja5S8fxdVXV5qObyS4KsBuLeZbRtJxWkszLud6Fu9JK9k3g/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E5%8D%95%E8%BD%A6.mp3', 
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
+                  name: '春娇与志明',
+                  artist: '街道办',
+                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/9pwY8bC3mnD12_UGRU4jHKR5_ntHd1GsOgrnawEYdF4mj7fRpi_bs7r_0OGSPj7cVilqveI6GJIaNQwq5WZ1Ai_bOYOywgUFxE8s9DUPTMPjcWyIhFmScrnrHdfzKYmCMI88-lUQCqKRuStQfmMwsYnHTNoaUlZTG5l4.mp3',
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            {
                   name:  '七月上',
                   artist: 'Jam',
-                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/ldvAipkcftvSiDvM9dHAePDZSc2uEhu-jpHxDGYMwZhVDX8d_7i8QaZ6lB7_OSJ4L2vJ5p7qT4iQAjnoTDDSaZaRTciSwuh8QmYV6i3KKnGRhBDtTUkv-YQJZCzdgiAcyLt73musFT2e2M0KHyfvzPHOcTz4PCpKQ02X.mp3',
+                  url: 'http://music.163.com/song/media/outer/url?id=31445554.mp3',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },            
             {
                   name: 'Summer',
                   artist: '久石让',
-                  url: 'https://cs1-43v4.vkuseraudio.net/s/v1/acmp/bkex139a2QkO7mdyREQpsm2NJPCb7AYzjS_tnEjPykgM8ZhOSkE6EaXF-iE9KKhfvdrqG1zgmlY9v43RNAVfiYeEJcg34gGv0VU2Rs6VXHjn0oGljmgjiH75nVm8ZNOLb5vR9KKtGYlv4joJm8PHfQ3pvMHbA2X0-N7K4BjFMmVHQXHv4g.mp3?siren=1',
+                  url: 'http://music.163.com/song/media/outer/url?id=1867107328.mp3',
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            {
+                  name: '云烟成雨',
+                  artist: '房东的猫',
+                  url: 'https://slider.kz/474499228_456610702/241/cs2-14v4/s/v1/acmp/Ck3Kogt56r-bYVpLrf8n8mjw4vcaHu6g3aUnZlPWFVcB8Fle4RJlXrF9W8RxZNM0LIyyZx4GxU4yispHNTqZXx-l4yLPzUEpjFMC2_rBxWM-Rddhe9tEfc7nnAjvbepjPFk3dO_RtTTb8uQmZDWdrwcWL3nl6GLR6txZb_ZijkcUgVP4jg/%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB%20-%20%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.mp3', 
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            {
+                  name: '爱在西元前', 
+                  artist: '周杰伦',
+                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/DRtXaiUd764bLLNe4hg8_CVlYH_orc3IqkViT98Cq6M4P-0H8FvWyLSqFwhrxQx1VVnEAxORbZ7A3Gi6I1xLul3Z3jgj5UNHQO_hiVSA-r3S3rQGXGeDBWDQuSXHl4xozN_OaqVeCgymT5GCKVv8cpjZQmwORl1ttpJb.mp3', 
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
@@ -465,11 +479,34 @@ const BLOG = {
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
             {
-                  name: '爱在西元前', 
-                  artist: '周杰伦',
-                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/DRtXaiUd764bLLNe4hg8_CVlYH_orc3IqkViT98Cq6M4P-0H8FvWyLSqFwhrxQx1VVnEAxORbZ7A3Gi6I1xLul3Z3jgj5UNHQO_hiVSA-r3S3rQGXGeDBWDQuSXHl4xozN_OaqVeCgymT5GCKVv8cpjZQmwORl1ttpJb.mp3', 
+                  name: 'Here with You',
+                  artist: 'Asher Monroe',
+                  url: 'http://music.163.com/song/media/outer/url?id=27583305.mp3',
                   cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             },
+            {
+                  name: 'Imagine',
+                  artist: 'John Lennon',
+                  url: 'http://music.163.com/song/media/outer/url?id=1476431.mp3',
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            {
+                  name: 'Hey Jude',
+                  artist: 'The Beatles',
+                  url: 'http://music.163.com/song/media/outer/url?id=5201810.mp3',
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            {
+                  name: '遇见',
+                  artist: '孙燕姿',
+                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/EskUfaKS4FI7cemkc0SgRTfhXlrafgQhWtEOmjW_Jz26q06RbtLKr-SQTVNMYcX5b8wLU26RdKeSqw4xlVOVVhzo6RnzVx0BkD3ECPB3_N0HRQmqHB2WCQ3fyKRX1ds2COUTAHb8BlpxQkSqJ68wkTVGnooirM8EFxKH.mp3',
+                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            },
+            
+
+
+
+
             // {
             //       name: '大千世界',
             //       artist: '许嵩',
@@ -524,12 +561,7 @@ const BLOG = {
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycz-cc.mp3', 
             //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
             // },
-            {
-                  name: '云烟成雨',
-                  artist: '房东的猫',
-                  url: 'https://slider.kz/474499228_456610702/241/cs2-14v4/s/v1/acmp/Ck3Kogt56r-bYVpLrf8n8mjw4vcaHu6g3aUnZlPWFVcB8Fle4RJlXrF9W8RxZNM0LIyyZx4GxU4yispHNTqZXx-l4yLPzUEpjFMC2_rBxWM-Rddhe9tEfc7nnAjvbepjPFk3dO_RtTTb8uQmZDWdrwcWL3nl6GLR6txZb_ZijkcUgVP4jg/%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB%20-%20%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
-            },
+
             {
                   name: 'Bella Ciao',
                   artist: 'Yves Montand',
