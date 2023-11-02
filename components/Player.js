@@ -19,7 +19,7 @@ const Player = () => {
         mutex: false,
         lrcType: lrcType,
         theme: '#FFFFFF',
-        preload: 'auto', // 预加载
+        preload: 'auto',
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         listMaxHeight: '500px',
@@ -35,10 +35,8 @@ const Player = () => {
     <div className={playerVisible ? 'visible' : 'invisible'}>
       <link
         rel="stylesheet"
-        type="text/css"
-        // aplayer css 
+        type="text/css" 
         href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
-        // href="https://cdn.jsdelivr.net/gh/Daleveral/css/Aplayer.min.css"
       />
       {meting
         ? <meting-js
