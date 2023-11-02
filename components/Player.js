@@ -18,7 +18,7 @@ const Player = () => {
         fixed: true,
         mutex: false,
         lrcType: lrcType,
-        // theme: '#FFFFFF',
+        theme: '#FFFFFF',
         // preload: auto,
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
@@ -35,8 +35,8 @@ const Player = () => {
     <div className={playerVisible ? 'visible' : 'invisible'}>
       <link
         rel="stylesheet"
-        type="text/css" 
-        href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/gh/Daleveral/css/Aplayer.min.css"
       />
       {meting
         ? <meting-js
