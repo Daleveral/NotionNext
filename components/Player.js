@@ -20,7 +20,6 @@ const Player = () => {
         lrcType: lrcType,
         theme: '#FFFFFF',
         preload: auto,
-        autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         listMaxHeight: '500px',
         audio: BLOG.MUSIC_PLAYER_AUDIO_LIST
