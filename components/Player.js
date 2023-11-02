@@ -19,7 +19,7 @@ const Player = () => {
         mutex: false,
         lrcType: lrcType,
         theme: '#FFFFFF',
-        preload: 'auto',
+        preload: auto,
         autoplay: autoPlay,
         order: BLOG.MUSIC_PLAYER_ORDER,
         listMaxHeight: '500px',
