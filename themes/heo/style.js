@@ -16,14 +16,15 @@ const Style = () => {
         color: white;
     }
 
+    // 滚动栏颜色样式
     ::-webkit-scrollbar-thumb {
-        background: rgba(60, 60, 67, 0.4);
+        background: rgba(93, 201, 211, 0.44);
         border-radius: 8px;
         cursor: pointer;
     }
 
     ::-webkit-scrollbar {
-        width: 8px;
+        width: 12px;
         height: 8px;
     }
 
