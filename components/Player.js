@@ -37,8 +37,8 @@ const Player = () => {
         rel="stylesheet"
         type="text/css"
         // aplayer css 
-        // href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
-        href="https://cdn.jsdelivr.net/gh/Daleveral/css/Aplayer.min.css"
+        href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css"
+        // href="https://cdn.jsdelivr.net/gh/Daleveral/css/Aplayer.min.css"
       />
       {meting
         ? <meting-js
