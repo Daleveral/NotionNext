@@ -23,6 +23,11 @@ const Style = () => {
         cursor: pointer;
     }
 
+    // 鼠标悬浮时滚动栏颜色
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(93, 201, 211);
+    }
+
     ::-webkit-scrollbar {
         width: 12px;
         height: 8px;
