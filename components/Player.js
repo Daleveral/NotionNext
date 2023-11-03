@@ -35,7 +35,7 @@ const Player = () => {
       <link
         rel="stylesheet"
         type="text/css"
-        href="https://cdn.jsdelivr.net/gh/Dalecuc/test/Aplayer.min.css"
+        href="https://cdn.jsdelivr.net/gh/Daleveral/csslivb/Aplayer.min.css"
       />
       {meting
         ? <meting-js
