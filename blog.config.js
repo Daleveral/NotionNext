@@ -197,7 +197,9 @@ const BLOG = {
       MUSIC_PLAYER_LRC_TYPE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_LRC_TYPE || '0', // 歌词显示类型，可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）（前提是有配置歌词路径，对 meting 无效）
       MUSIC_PLAYER_CDN_URL:
             process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL ||
-            'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
+            // 'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
+            'https://cdn.jsdelivr.net/gh/Daleveral/csslivb/jsv2.js', // 使用自定义的 js
+
       MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
       MUSIC_PLAYER_AUDIO_LIST: [
             // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
@@ -206,301 +208,301 @@ const BLOG = {
                   name: 'なんでもないや',
                   artist: 'Akie秋绘',
                   url: 'http://music.163.com/song/media/outer/url?id=450795499.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Merry Christmas Mr. Lawrence',
                   artist: '坂本龍一',
                   url: 'http://music.163.com/song/media/outer/url?id=1893923634.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '风を共に舞う気持ち',
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '王都グランセル',
                   artist: 'Falcom Sound Team jdk',
                   url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Only Time',
                   artist: 'Enya',
                   url: 'http://music.163.com/song/media/outer/url?id=29470947.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Yesterday Once More',
                   artist: 'Carpenters',
                   url: 'http://music.163.com/song/media/outer/url?id=3986241.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: "My Love",
                   artist: 'Westlife',
                   url: 'http://music.163.com/song/media/outer/url?id=2081191.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: "In the End",
                   artist: 'Linkin Park',
                   url: 'http://music.163.com/song/media/outer/url?id=16686470.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'You',
                   artist: 'Approaching Nirvana',
                   url: 'http://music.163.com/song/media/outer/url?id=1891437743.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Young and Beautiful',
                   artist: 'Lana Del Rey',
                   url: 'http://music.163.com/song/media/outer/url?id=28952209.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Dirty Paws',
                   artist: 'Of Monsters And Men',
                   url: 'http://music.163.com/song/media/outer/url?id=1890665790.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Beautiful',
                   artist: 'Virginia To Vegas',
                   url: 'http://music.163.com/song/media/outer/url?id=29722661.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'We Are Young',
                   artist: 'Fun, Janelle Monáe',
                   url: 'http://music.163.com/song/media/outer/url?id=28329964.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'The Nights',
                   artist: 'Avicii',
                   url: 'http://music.163.com/song/media/outer/url?id=1826923389.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'That Girl',
                   artist: 'Olly Murs',
                   url: 'http://music.163.com/song/media/outer/url?id=864650750.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'You Raise Me Up',
                   artist: 'Westlife',
                   url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Mr.Moustafa',
                   artist: 'Alexandre Desplat',
                   url: 'http://music.163.com/song/media/outer/url?id=28289088.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Waiting for Love',
                   artist: 'Avicii',
                   url: 'http://music.163.com/song/media/outer/url?id=1842927464.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Gotta Have You',
                   artist: 'The Weepies',
                   url: 'http://music.163.com/song/media/outer/url?id=19572271.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'The Saltwater Room',
                   artist: 'Owl City',
                   url: 'http://music.163.com/song/media/outer/url?id=1807828.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'What Are Words',
                   artist: 'Chris Medina',
                   url: 'http://music.163.com/song/media/outer/url?id=1210496.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'NEW BOY',
                   artist: '朴树',
                   url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Color Blind',
                   artist: 'Matt B',
                   url: 'http://music.163.com/song/media/outer/url?id=1910991521.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'New Soul',
                   artist: 'Yael Naim',
                   url: 'http://music.163.com/song/media/outer/url?id=2010944681.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'arhbo ( 球员入阵 )',
                   artist: 'Gims/Ozuna',
                   url: 'http://music.163.com/song/media/outer/url?id=2042622526.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '莫斯科郊外的晚上',
                   artist: '中央音乐合唱团',
                   url: 'http://music.163.com/song/media/outer/url?id=5280398.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Sound of Silence',
                   artist: 'Simon & Garfunkel',
                   url: 'http://music.163.com/song/media/outer/url?id=491424530.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Hayya Hayya',
                   artist: 'Trinidad Cardona,DaVido,Aisha',
                   url: 'http://music.163.com/song/media/outer/url?id=1933800693.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'What Makes You Beautiful',
                   artist: 'One Direction',
                   url: 'http://music.163.com/song/media/outer/url?id=27218979.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '海阔天空',
                   artist: 'Beyond',
                   url: 'http://music.163.com/song/media/outer/url?id=1357374736.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '喜欢你',
                   artist: 'Beyond',
                   url: 'http://music.163.com/song/media/outer/url?id=346163.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Go West',
                   artist: 'Pet Shop Boys',
                   url: 'http://music.163.com/song/media/outer/url?id=27198266.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Iridescent',
                   artist: 'Linkin Park',
                   url: 'http://music.163.com/song/media/outer/url?id=25639052.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '亡命之徒',
                   artist: '纵贯线',
                   url: 'http://music.163.com/song/media/outer/url?id=5237863.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '起风了',
                   artist: '买辣椒也用券',
                   url: 'http://music.163.com/song/media/outer/url?id=1330348068.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '小城大事',
                   artist: '杨千嬅',
                   url: 'http://music.163.com/song/media/outer/url?id=1357379611.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: "Take Me Hands",
                   artist: 'Cécile Corbel',
                   url: 'https://cs2-1v4.vkuseraudio.net/s/v1/acmp/rxXuJ_5EEDurzF9WHkXyOU5DPytmutdPYr7_pkjXvUxMoxqLirbWMOzk84LSRiNOs5BofT3H2jJie9k3lrLCAaGesLoLeWEFnqCAV4HQsnGq-uOsaAIypiQSYl05tQfs5C-QFGydzwwaZRFfZLmU_7l0RwmGq1KMaREU87XVf8DVvinUZQ.mp3?siren=1',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'ahbho',
                   artist: 'Gims/Ozuna',
                   url: 'https://cs2-14v4.vkuseraudio.net/s/v1/acmp/MQ9f4w8H2A8qaOjPVw-nF4Wu5wbfThQYfXu4UOo0RzTcPev2mwFneWFL-fBk-2BY8TBBqb-jZdkUzeYcAN2OHqdCKOleVo6ccHhPuXeiI_rAFTDnzS1wHeBocsi7E0ekNlUqyx_7Xng-X_5WxgTgi7W0ycBpnEfuSl9Y80uQe3cRyWMvqA.mp3?siren=1',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '单车',
                   artist: '陈奕迅',
                   url: 'https://slider.kz/513889491_456239139/211/cs1-76v4/s/v1/acmp/qKupXrVJLSw5bsEFeKtvL3KIYzMYIhPeNVXW-kAe46NYPUzZ0qWa99TfIGl0T2x2lkZrRZ8wEi7OZJbCxYOua0n9_zQxSHSHwmT1-Qt7BhtcBZ78dWO9VT5xmeMhdqK2g-tja5S8fxdVXV5qObyS4KsBuLeZbRtJxWkszLud6Fu9JK9k3g/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E5%8D%95%E8%BD%A6.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '春娇与志明',
                   artist: '街道办',
                   url: 'https://psv4.vkuseraudio.net/s/v1/amp2/9pwY8bC3mnD12_UGRU4jHKR5_ntHd1GsOgrnawEYdF4mj7fRpi_bs7r_0OGSPj7cVilqveI6GJIaNQwq5WZ1Ai_bOYOywgUFxE8s9DUPTMPjcWyIhFmScrnrHdfzKYmCMI88-lUQCqKRuStQfmMwsYnHTNoaUlZTG5l4.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name:  '七月上',
                   artist: 'Jam',
                   url: 'http://music.163.com/song/media/outer/url?id=31445554.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },            
             {
                   name: 'Summer',
                   artist: '久石让',
                   url: 'http://music.163.com/song/media/outer/url?id=1867107328.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '云烟成雨',
                   artist: '房东的猫',
                   url: 'https://slider.kz/474499228_456610702/241/cs2-14v4/s/v1/acmp/Ck3Kogt56r-bYVpLrf8n8mjw4vcaHu6g3aUnZlPWFVcB8Fle4RJlXrF9W8RxZNM0LIyyZx4GxU4yispHNTqZXx-l4yLPzUEpjFMC2_rBxWM-Rddhe9tEfc7nnAjvbepjPFk3dO_RtTTb8uQmZDWdrwcWL3nl6GLR6txZb_ZijkcUgVP4jg/%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB%20-%20%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '爱在西元前', 
                   artist: '周杰伦',
                   url: 'https://psv4.vkuseraudio.net/s/v1/amp2/DRtXaiUd764bLLNe4hg8_CVlYH_orc3IqkViT98Cq6M4P-0H8FvWyLSqFwhrxQx1VVnEAxORbZ7A3Gi6I1xLul3Z3jgj5UNHQO_hiVSA-r3S3rQGXGeDBWDQuSXHl4xozN_OaqVeCgymT5GCKVv8cpjZQmwORl1ttpJb.mp3', 
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '再见',
                   artist: '张震岳',
                   url: 'https://slider.kz/176586548_456239045/184/cs1-40v4/s/v1/acmp/m19BQ4svyNng5AFsAH8epdcf4it7chqrAXVpHtOjvrqfnQEolpLZj7sQ0d4x89XB7cuyzm6s_qmmC8VnmQJJJCtbAA7xpbXyXPfjJ-5Y9WpUsXelajtm-AbJuWwPK1fZ4RnYIYpxebKrIpOthzIj5d_yRCXYyr0iMpmjpZrzn6D1pI3M5A/%E5%BC%A0%E9%9C%87%E5%B2%B3%20-%20%E5%86%8D%E8%A7%81.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '富士山下',
                   artist: '陈奕迅',
                   url: 'http://music.163.com/song/media/outer/url?id=1851228561.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Here with You',
                   artist: 'Asher Monroe',
                   url: 'http://music.163.com/song/media/outer/url?id=27583305.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Imagine',
                   artist: 'John Lennon',
                   url: 'http://music.163.com/song/media/outer/url?id=1476431.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'Hey Jude',
                   artist: 'The Beatles',
                   url: 'http://music.163.com/song/media/outer/url?id=5201810.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '遇见',
                   artist: '孙燕姿',
                   url: 'https://psv4.vkuseraudio.net/s/v1/amp2/EskUfaKS4FI7cemkc0SgRTfhXlrafgQhWtEOmjW_Jz26q06RbtLKr-SQTVNMYcX5b8wLU26RdKeSqw4xlVOVVhzo6RnzVx0BkD3ECPB3_N0HRQmqHB2WCQ3fyKRX1ds2COUTAHb8BlpxQkSqJ68wkTVGnooirM8EFxKH.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             
 
@@ -511,86 +513,86 @@ const BLOG = {
             //       name: '大千世界',
             //       artist: '许嵩',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/大千世界 - 许嵩.mp3',
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: 'Amani', 
             //       artist: 'Beyond',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/amani.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: 'Battle Symphony', 
             //       artist: 'Linkin Park',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/battlesphn.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: '北京东路的日子', 
             //       artist: '群星',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/bjeastr.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: 'Illusionary Daytime', 
             //       artist: 'Shirfine',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/illudtm.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: 'PLANET', 
             //       artist: 'ラムジ',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/planet.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: '晴天', 
             //       artist: '周杰伦',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/qingtian.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: '四季予你', 
             //       artist: '陈响',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/sijiyuni-cc.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             // {
             //       name: 'いつも何度でも', 
             //       artist: '木村弓',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycz-cc.mp3', 
-            //       cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
 
             {
                   name: 'Bella Ciao',
                   artist: 'Yves Montand',
                   url: 'http://music.163.com/song/media/outer/url?id=28482611.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'La Marseillaise',
                   artist: 'Georges Delerue',
                   url: 'http://music.163.com/song/media/outer/url?id=1384539.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '华沙曲',
                   artist: '奶酪 AmerUzily,觉醒之声合唱团',
                   url: 'http://music.163.com/song/media/outer/url?id=1874138846.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'L\'Internationale',
                   artist: 'Les Coeurs Révolutionnaires',
                   url: 'http://music.163.com/song/media/outer/url?id=542146410.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '国际歌',
                   artist: '中央乐团合唱队',
                   url: 'http://music.163.com/song/media/outer/url?id=5281551.mp3',
-                  cover: 'https://z1.ax1x.com/2023/10/24/piEkGJs.png'
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             }
       ],
       MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
