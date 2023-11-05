@@ -35,7 +35,8 @@ const Player = () => {
       <link
         rel="stylesheet"
         type="text/css"
-        href="https://cdn.jsdelivr.net/gh/Daleveral/csslivb/cssv3.css"
+        // href="https://cdn.jsdelivr.net/gh/Daleveral/csslivb/cssv3.css"
+        href="https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/cssv3.css"
       />
       {meting
         ? <meting-js

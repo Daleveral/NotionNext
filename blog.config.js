@@ -198,7 +198,8 @@ const BLOG = {
       MUSIC_PLAYER_CDN_URL:
             process.env.NEXT_PUBLIC_MUSIC_PLAYER_CDN_URL ||
             // 'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js',
-            'https://cdn.jsdelivr.net/gh/Daleveral/csslivb/jsv2.js', // 使用自定义的 js
+            // 'https://cdn.jsdelivr.net/gh/Daleveral/csslivb/jsv2.js', // 使用自定义的 js
+            'https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/jsv2.js', // 使用自定义的 js
 
       MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
       MUSIC_PLAYER_AUDIO_LIST: [
