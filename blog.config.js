@@ -424,31 +424,31 @@ const BLOG = {
             {
                   name: "Take Me Hands",
                   artist: 'Cécile Corbel',
-                  url: 'https://cs2-1v4.vkuseraudio.net/s/v1/acmp/rxXuJ_5EEDurzF9WHkXyOU5DPytmutdPYr7_pkjXvUxMoxqLirbWMOzk84LSRiNOs5BofT3H2jJie9k3lrLCAaGesLoLeWEFnqCAV4HQsnGq-uOsaAIypiQSYl05tQfs5C-QFGydzwwaZRFfZLmU_7l0RwmGq1KMaREU87XVf8DVvinUZQ.mp3?siren=1',
+                  url: 'http://47.94.218.114:8080/music/tmh.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: 'ahbho',
                   artist: 'Gims/Ozuna',
-                  url: 'https://cs2-14v4.vkuseraudio.net/s/v1/acmp/MQ9f4w8H2A8qaOjPVw-nF4Wu5wbfThQYfXu4UOo0RzTcPev2mwFneWFL-fBk-2BY8TBBqb-jZdkUzeYcAN2OHqdCKOleVo6ccHhPuXeiI_rAFTDnzS1wHeBocsi7E0ekNlUqyx_7Xng-X_5WxgTgi7W0ycBpnEfuSl9Y80uQe3cRyWMvqA.mp3?siren=1',
+                  url: 'http://47.94.218.114:8080/music/arhbo.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '单车',
                   artist: '陈奕迅',
-                  url: 'https://slider.kz/513889491_456239139/211/cs1-76v4/s/v1/acmp/qKupXrVJLSw5bsEFeKtvL3KIYzMYIhPeNVXW-kAe46NYPUzZ0qWa99TfIGl0T2x2lkZrRZ8wEi7OZJbCxYOua0n9_zQxSHSHwmT1-Qt7BhtcBZ78dWO9VT5xmeMhdqK2g-tja5S8fxdVXV5qObyS4KsBuLeZbRtJxWkszLud6Fu9JK9k3g/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E5%8D%95%E8%BD%A6.mp3', 
+                  url: 'http://47.94.218.114:8080/music/danche.mp3', 
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '春娇与志明',
                   artist: '街道办',
-                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/9pwY8bC3mnD12_UGRU4jHKR5_ntHd1GsOgrnawEYdF4mj7fRpi_bs7r_0OGSPj7cVilqveI6GJIaNQwq5WZ1Ai_bOYOywgUFxE8s9DUPTMPjcWyIhFmScrnrHdfzKYmCMI88-lUQCqKRuStQfmMwsYnHTNoaUlZTG5l4.mp3',
+                  url: 'http://47.94.218.114:8080/music/cjzm.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name:  '七月上',
                   artist: 'Jam',
-                  url: 'http://music.163.com/song/media/outer/url?id=31445554.mp3',
+                  url: 'http://47.94.218.114:8080/music/qys.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },            
             {
@@ -460,19 +460,19 @@ const BLOG = {
             {
                   name: '云烟成雨',
                   artist: '房东的猫',
-                  url: 'https://slider.kz/474499228_456610702/241/cs2-14v4/s/v1/acmp/Ck3Kogt56r-bYVpLrf8n8mjw4vcaHu6g3aUnZlPWFVcB8Fle4RJlXrF9W8RxZNM0LIyyZx4GxU4yispHNTqZXx-l4yLPzUEpjFMC2_rBxWM-Rddhe9tEfc7nnAjvbepjPFk3dO_RtTTb8uQmZDWdrwcWL3nl6GLR6txZb_ZijkcUgVP4jg/%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB%20-%20%E4%BA%91%E7%83%9F%E6%88%90%E9%9B%A8.mp3', 
+                  url: 'http://47.94.218.114:8080/music/yycy.mp3', 
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '爱在西元前', 
                   artist: '周杰伦',
-                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/DRtXaiUd764bLLNe4hg8_CVlYH_orc3IqkViT98Cq6M4P-0H8FvWyLSqFwhrxQx1VVnEAxORbZ7A3Gi6I1xLul3Z3jgj5UNHQO_hiVSA-r3S3rQGXGeDBWDQuSXHl4xozN_OaqVeCgymT5GCKVv8cpjZQmwORl1ttpJb.mp3', 
+                  url: 'http://47.94.218.114:8080/music/aizaixiyrqm.mp3', 
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
                   name: '再见',
                   artist: '张震岳',
-                  url: 'https://slider.kz/176586548_456239045/184/cs1-40v4/s/v1/acmp/m19BQ4svyNng5AFsAH8epdcf4it7chqrAXVpHtOjvrqfnQEolpLZj7sQ0d4x89XB7cuyzm6s_qmmC8VnmQJJJCtbAA7xpbXyXPfjJ-5Y9WpUsXelajtm-AbJuWwPK1fZ4RnYIYpxebKrIpOthzIj5d_yRCXYyr0iMpmjpZrzn6D1pI3M5A/%E5%BC%A0%E9%9C%87%E5%B2%B3%20-%20%E5%86%8D%E8%A7%81.mp3',
+                  url: 'http://47.94.218.114:8080/music/zaijian.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
@@ -502,68 +502,222 @@ const BLOG = {
             {
                   name: '遇见',
                   artist: '孙燕姿',
-                  url: 'https://psv4.vkuseraudio.net/s/v1/amp2/EskUfaKS4FI7cemkc0SgRTfhXlrafgQhWtEOmjW_Jz26q06RbtLKr-SQTVNMYcX5b8wLU26RdKeSqw4xlVOVVhzo6RnzVx0BkD3ECPB3_N0HRQmqHB2WCQ3fyKRX1ds2COUTAHb8BlpxQkSqJ68wkTVGnooirM8EFxKH.mp3',
+                  url: 'http://47.94.218.114:8080/music/yujian.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '后来',
+                  artist: '刘若英',
+                  url: '',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Attention',
+                  artist: 'Charlie Puth',
+                  url: 'http://47.94.218.114:8080/music/attention.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '七里香',
+                  artist: '周杰伦',
+                  url: 'http://47.94.218.114:8080/music/qilixl.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '醉赤壁',
+                  artist: '林俊杰',
+                  url: 'http://47.94.218.114:8080/music/zviibi.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'One Day',
+                  artist: 'Matisyahu',
+                  url: 'http://47.94.218.114:8080/music/oneday.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '贝加尔湖畔',
+                  artist: '李健',
+                  url: 'http://47.94.218.114:8080/music/beijiaerhup.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '清白之年',
+                  artist: '朴树',
+                  url: 'http://47.94.218.114:8080/music/qkbdvinm.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '最佳损友',
+                  artist: '陈奕迅',
+                  url: 'http://47.94.218.114:8080/music/zuijiasunyou.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Yellow',
+                  artist: 'Coldplay',
+                  url: 'http://47.94.218.114:8080/music/yellow.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '光辉岁月',
+                  artist: 'Beyond',
+                  url: 'http://47.94.218.114:8080/music/ghsy.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '好久不见',
+                  artist: '陈奕迅',
+                  url: 'http://47.94.218.114:8080/music/hcjqbujm.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '曾经的你',
+                  artist: '许巍',
+                  url: 'http://47.94.218.114:8080/music/cgjkdeni.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'welcome to New York',
+                  artist: 'Taylor Swift',
+                  url: 'http://47.94.218.114:8080/music/welcometony.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '一样的月光',
+                  artist: '徐佳莹',
+                  url: 'http://47.94.218.114:8080/music/yiyhdeytgl.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '欢乐颂',
+                  artist: '贝多芬',
+                  url: 'http://47.94.218.114:8080/music/hls.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '理想三旬',
+                  artist: '陈鸿宇',
+                  url: 'http://47.94.218.114:8080/music/lixlsjsy.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             
-
-
-
-
-            // {
-            //       name: '大千世界',
-            //       artist: '许嵩',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/大千世界 - 许嵩.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: 'Amani', 
-            //       artist: 'Beyond',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/amani.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: 'Battle Symphony', 
-            //       artist: 'Linkin Park',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/battlesphn.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: '北京东路的日子', 
-            //       artist: '群星',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/bjeastr.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+            {
+                  name: '光阴的故事',
+                  artist: '罗大佑',
+                  url: 'http://47.94.218.114:8080/music/gydgs.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: '反方向的钟',
+                  artist: '周杰伦',
+                  url: 'http://47.94.218.114:8080/music/fjflxldevs.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: '这世界那么多人',
+                  artist: '莫文蔚',
+                  url: 'http://47.94.218.114:8080/music/veuijpnamedor.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: 'Wilder Dreams',
+                  artist: 'Taylor Swift',
+                  url: 'http://47.94.218.114:8080/music/wildestdrs.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: '时间都去哪了',
+                  artist: '王铮亮',
+                  url: 'http://47.94.218.114:8080/music/timewhere.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: 'K歌之王',
+                  artist: '陈奕迅',
+                  url: 'http://47.94.218.114:8080/music/kgezhw.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: 'Last First Kiss',
+                  artist: 'One Direction',
+                  url: 'http://47.94.218.114:8080/music/last1kiss.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: 'Stan',
+                  artist: 'Eminem',
+                  url: 'http://47.94.218.114:8080/music/stan.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: '凤凰花开的路口',
+                  artist: '林志炫',
+                  url: 'http://47.94.218.114:8080/music/fenghuanghualk.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '大千世界',
+                  artist: '许嵩',
+                  url: 'http://47.94.218.114:8080/music/daqmuijp.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Amani', 
+                  artist: 'Beyond',
+                  url: 'http://47.94.218.114:8080/music/amani.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Battle Symphony', 
+                  artist: 'Linkin Park',
+                  url: 'http://47.94.218.114:8080/music/battlesph.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '北京东路的日子', 
+                  artist: '群星',
+                  url: 'http://47.94.218.114:8080/music/beijingestrd.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
             // {
             //       name: 'Illusionary Daytime', 
             //       artist: 'Shirfine',
             //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/illudtm.mp3', 
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: 'PLANET', 
-            //       artist: 'ラムジ',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/planet.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: '晴天', 
-            //       artist: '周杰伦',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/qingtian.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: '四季予你', 
-            //       artist: '陈响',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/sijiyuni-cc.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: 'いつも何度でも', 
-            //       artist: '木村弓',
-            //       url: 'https://github.com/Dalecuc/lihan3238/raw/main/musics/yycz-cc.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+            {
+                  name: 'PLANET', 
+                  artist: 'ラムジ',
+                  url: 'http://47.94.218.114:8080/music/planet.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '晴天', 
+                  artist: '周杰伦',
+                  url: 'http://47.94.218.114:8080/music/qingtian.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '四季予你', 
+                  artist: '陈响',
+                  url: 'http://47.94.218.114:8080/music/sijiyuni.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'いつも何度でも', 
+                  artist: '木村弓',
+                  url: 'http://47.94.218.114:8080/music/hedu.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
 
             {
                   name: 'Bella Ciao',
