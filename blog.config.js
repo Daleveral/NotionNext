@@ -453,30 +453,32 @@ const BLOG = {
             },
 
 
-            {
-                  name: "Take Me Hands",
-                  artist: 'Cécile Corbel',
-                  url: 'http://47.94.218.114:8080/music/tmh.mp3',
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: 'ahbho',
-                  artist: 'Gims/Ozuna',
-                  url: 'http://47.94.218.114:8080/music/arhbo.mp3',
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: '单车',
-                  artist: '陈奕迅',
-                  url: 'http://47.94.218.114:8080/music/danche.mp3', 
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: '春娇与志明',
-                  artist: '街道办',
-                  url: 'http://47.94.218.114:8080/music/cjzm.mp3',
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
+
+            // !----------------------------- music on my server : ------------------------
+            // {
+            //       name: "Take Me Hands",
+            //       artist: 'Cécile Corbel',
+            //       url: 'http://47.94.218.114:8080/music/tmh.mp3',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: 'ahbho',
+            //       artist: 'Gims/Ozuna',
+            //       url: 'http://47.94.218.114:8080/music/arhbo.mp3',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: '单车',
+            //       artist: '陈奕迅',
+            //       url: 'http://47.94.218.114:8080/music/danche.mp3', 
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: '春娇与志明',
+            //       artist: '街道办',
+            //       url: 'http://47.94.218.114:8080/music/cjzm.mp3',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
             // {
             //       name:  '七月上',
             //       artist: 'Jam',
