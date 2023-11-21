@@ -461,24 +461,30 @@ const BLOG = {
             //       url: 'http://47.94.218.114:8080/music/tmh.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: 'ahbho',
-            //       artist: 'Gims/Ozuna',
-            //       url: 'http://47.94.218.114:8080/music/arhbo.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+            {
+                  name: 'ahbho',
+                  artist: 'Gims/Ozuna',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/arhbo.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Battle Symphony', 
+                  artist: 'Linkin Park',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwMzhf/battlesph.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
             // {
             //       name: '单车',
             //       artist: '陈奕迅',
             //       url: 'http://47.94.218.114:8080/music/danche.mp3', 
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: '春娇与志明',
-            //       artist: '街道办',
-            //       url: 'http://47.94.218.114:8080/music/cjzm.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+            {
+                  name: '春娇与志明',
+                  artist: '街道办',
+                  url: 'https://od.lk/s/MjVfNjk5OTcxNjhf/cjzm.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
             // {
             //       name:  '七月上',
             //       artist: 'Jam',
@@ -676,12 +682,7 @@ const BLOG = {
             //       url: 'http://47.94.218.114:8080/music/amani.mp3', 
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: 'Battle Symphony', 
-            //       artist: 'Linkin Park',
-            //       url: 'http://47.94.218.114:8080/music/battlesph.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             // {
             //       name: '北京东路的日子', 
             //       artist: '群星',
