@@ -451,16 +451,57 @@ const BLOG = {
                   url: 'http://music.163.com/song/media/outer/url?id=1867107328.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
-
+            {
+                  name: 'Yellow',
+                  artist: 'Coldplay',
+                  url: 'http://music.163.com/song/media/outer/url?id=26807310.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '最佳损友',
+                  artist: '陈奕迅',
+                  url: 'http://music.163.com/song/media/outer/url?id=65800.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '理想三旬',
+                  artist: '陈鸿宇',
+                  url: 'http://music.163.com/song/media/outer/url?id=31445772.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '北京东路的日子', 
+                  artist: '群星',
+                  url: 'http://music.163.com/song/media/outer/url?id=458245372.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'PLANET', 
+                  artist: 'ラムジ',
+                  url: 'http://music.163.com/song/media/outer/url?id=812400.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '凤凰花开的路口',
+                  artist: '林志炫',
+                  url: 'http://music.163.com/song/media/outer/url?id=109734.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '好久不见',
+                  artist: '陈奕迅',
+                  url: 'http://music.163.com/song/media/outer/url?id=65538.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
 
 
             // !----------------------------- music on my server : ------------------------
-            // {
-            //       name: "Take Me Hands",
-            //       artist: 'Cécile Corbel',
-            //       url: 'http://47.94.218.114:8080/music/tmh.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+            {
+                  name: "Take Me Hands",
+                  artist: 'Cécile Corbel',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/tmh.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
             {
                   name: 'ahbho',
                   artist: 'Gims/Ozuna',
@@ -473,18 +514,37 @@ const BLOG = {
                   url: 'https://od.lk/s/MjVfNjk5OTcwMzhf/battlesph.mp3', 
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
-            // {
-            //       name: '单车',
-            //       artist: '陈奕迅',
-            //       url: 'http://47.94.218.114:8080/music/danche.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+            {
+                  name: '单车',
+                  artist: '陈奕迅',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/danche.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
             {
                   name: '春娇与志明',
                   artist: '街道办',
                   url: 'https://od.lk/s/MjVfNjk5OTcxNjhf/cjzm.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
+            {
+                  name: '云烟成雨',
+                  artist: '房东的猫',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/yycy.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Stan',
+                  artist: 'Eminem',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/stan.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '四季予你', 
+                  artist: '陈响',
+                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/sijiyuni.mp3', 
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+
             // {
             //       name:  '七月上',
             //       artist: 'Jam',
@@ -492,12 +552,7 @@ const BLOG = {
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },            
 
-            // {
-            //       name: '云烟成雨',
-            //       artist: '房东的猫',
-            //       url: 'http://47.94.218.114:8080/music/yycy.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             // {
             //       name: '爱在西元前', 
             //       artist: '周杰伦',
@@ -553,30 +608,15 @@ const BLOG = {
             //       url: 'http://47.94.218.114:8080/music/qkbdvinm.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: '最佳损友',
-            //       artist: '陈奕迅',
-            //       url: 'http://47.94.218.114:8080/music/zuijiasunyou.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            // {
-            //       name: 'Yellow',
-            //       artist: 'Coldplay',
-            //       url: 'http://47.94.218.114:8080/music/yellow.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
+
             // {
             //       name: '光辉岁月',
             //       artist: 'Beyond',
             //       url: 'http://47.94.218.114:8080/music/ghsy.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: '好久不见',
-            //       artist: '陈奕迅',
-            //       url: 'http://47.94.218.114:8080/music/hcjqbujm.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             // {
             //       name: '曾经的你',
             //       artist: '许巍',
@@ -601,12 +641,7 @@ const BLOG = {
             //       url: 'http://47.94.218.114:8080/music/hls.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: '理想三旬',
-            //       artist: '陈鸿宇',
-            //       url: 'http://47.94.218.114:8080/music/lixlsjsy.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             
             // {
             //       name: '光阴的故事',
@@ -630,7 +665,7 @@ const BLOG = {
             // },
             
             // {
-            //       name: 'Wilder Dreams',
+            //       name: 'Wild Dreams',
             //       artist: 'Taylor Swift',
             //       url: 'http://47.94.218.114:8080/music/wildestdrs.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
@@ -657,19 +692,9 @@ const BLOG = {
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
             
-            // {
-            //       name: 'Stan',
-            //       artist: 'Eminem',
-            //       url: 'http://47.94.218.114:8080/music/stan.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             
-            // {
-            //       name: '凤凰花开的路口',
-            //       artist: '林志炫',
-            //       url: 'http://47.94.218.114:8080/music/fenghuanghualk.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             // {
             //       name: '大千世界',
             //       artist: '许嵩',
@@ -683,31 +708,14 @@ const BLOG = {
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
 
-            // {
-            //       name: '北京东路的日子', 
-            //       artist: '群星',
-            //       url: 'http://47.94.218.114:8080/music/beijingestrd.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
 
-            // {
-            //       name: 'PLANET', 
-            //       artist: 'ラムジ',
-            //       url: 'http://47.94.218.114:8080/music/planet.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
             // {
             //       name: '晴天', 
             //       artist: '周杰伦',
             //       url: 'http://47.94.218.114:8080/music/qingtian.mp3', 
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            // {
-            //       name: '四季予你', 
-            //       artist: '陈响',
-            //       url: 'http://47.94.218.114:8080/music/sijiyuni.mp3', 
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
+
             // {
             //       name: 'いつも何度でも', 
             //       artist: '木村弓',
