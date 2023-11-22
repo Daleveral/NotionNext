@@ -493,65 +493,89 @@ const BLOG = {
                   url: 'http://music.163.com/song/media/outer/url?id=65538.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
-
-
-            // !----------------------------- music on my server : ------------------------
             {
-                  name: "Take Me Hands",
-                  artist: 'Cécile Corbel',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/tmh.mp3',
+                  name: '愿得一人心',
+                  artist: '李行亮',
+                  url: 'http://music.163.com/song/media/outer/url?id=25731646.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
-                  name: 'ahbho',
-                  artist: 'Gims/Ozuna',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/arhbo.mp3',
+                  name:  '七月上',
+                  artist: 'Jam',
+                  url: 'http://music.163.com/song/media/outer/url?id=31445554.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },   
+            {
+                  name: '光阴的故事',
+                  artist: '罗大佑',
+                  url: 'http://music.163.com/song/media/outer/url?id=109545.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
             {
-                  name: 'Battle Symphony', 
-                  artist: 'Linkin Park',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwMzhf/battlesph.mp3', 
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: '单车',
+                  name: 'K歌之王',
                   artist: '陈奕迅',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/danche.mp3', 
+                  url: 'http://music.163.com/song/media/outer/url?id=1897928899.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
+            
             {
-                  name: '春娇与志明',
-                  artist: '街道办',
-                  url: 'https://od.lk/s/MjVfNjk5OTcxNjhf/cjzm.mp3',
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: '云烟成雨',
-                  artist: '房东的猫',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/yycy.mp3', 
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: 'Stan',
-                  artist: 'Eminem',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/stan.mp3',
-                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            },
-            {
-                  name: '四季予你', 
-                  artist: '陈响',
-                  url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/sijiyuni.mp3', 
+                  name: 'Last First Kiss',
+                  artist: 'One Direction',
+                  url: 'http://music.163.com/song/media/outer/url?id=25882975.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
 
+
+
+            // !----------------------------- unplayable songs ------------------------
             // {
-            //       name:  '七月上',
-            //       artist: 'Jam',
-            //       url: 'http://47.94.218.114:8080/music/qys.mp3',
+            //       name: "Take Me Hands",
+            //       artist: 'Cécile Corbel',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/tmh.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },            
-
+            // },
+            // {
+            //       name: 'ahbho',
+            //       artist: 'Gims/Ozuna',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/arhbo.mp3',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: 'Battle Symphony', 
+            //       artist: 'Linkin Park',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwMzhf/battlesph.mp3', 
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: '单车',
+            //       artist: '陈奕迅',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/danche.mp3', 
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: '春娇与志明',
+            //       artist: '街道办',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcxNjhf/cjzm.mp3',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: '云烟成雨',
+            //       artist: '房东的猫',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/yycy.mp3', 
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: 'Stan',
+            //       artist: 'Eminem',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/stan.mp3',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+            // {
+            //       name: '四季予你', 
+            //       artist: '陈响',
+            //       url: 'https://od.lk/s/MjVfNjk5OTcwNDNf/sijiyuni.mp3', 
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
 
             // {
             //       name: '爱在西元前', 
@@ -609,7 +633,6 @@ const BLOG = {
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
 
-
             // {
             //       name: '光辉岁月',
             //       artist: 'Beyond',
@@ -642,14 +665,6 @@ const BLOG = {
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
 
-            
-            // {
-            //       name: '光阴的故事',
-            //       artist: '罗大佑',
-            //       url: 'http://47.94.218.114:8080/music/gydgs.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            
             // {
             //       name: '反方向的钟',
             //       artist: '周杰伦',
@@ -677,23 +692,6 @@ const BLOG = {
             //       url: 'http://47.94.218.114:8080/music/timewhere.mp3',
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-            
-            // {
-            //       name: 'K歌之王',
-            //       artist: '陈奕迅',
-            //       url: 'http://47.94.218.114:8080/music/kgezhw.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            
-            // {
-            //       name: 'Last First Kiss',
-            //       artist: 'One Direction',
-            //       url: 'http://47.94.218.114:8080/music/last1kiss.mp3',
-            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            // },
-            
-
-            
 
             // {
             //       name: '大千世界',
@@ -707,7 +705,6 @@ const BLOG = {
             //       url: 'http://47.94.218.114:8080/music/amani.mp3', 
             //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             // },
-
 
             // {
             //       name: '晴天', 
