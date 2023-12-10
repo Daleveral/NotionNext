@@ -524,6 +524,28 @@ const BLOG = {
                   url: 'http://music.163.com/song/media/outer/url?id=25882975.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
+            
+            {
+                  name: '水星记',
+                  artist: '郭顶',
+                  url: 'http://music.163.com/song/media/outer/url?id=441491828.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: 'Look At Me Now',
+                  artist: 'Charlie Puth',
+                  url: 'http://music.163.com/song/media/outer/url?id=28188171.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'Brought Up That Way',
+                  artist: 'Taylor Swift',
+                  url: 'http://music.163.com/song/media/outer/url?id=2001660.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            }
+
+
 
 
 
