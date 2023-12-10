@@ -543,7 +543,7 @@ const BLOG = {
                   artist: 'Taylor Swift',
                   url: 'http://music.163.com/song/media/outer/url?id=2001660.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
-            }
+            },
 
 
 
