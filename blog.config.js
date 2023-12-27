@@ -544,6 +544,38 @@ const BLOG = {
                   url: 'http://music.163.com/song/media/outer/url?id=2001660.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
+            {
+                  name: 'Demons',
+                  artist: 'Imagine Dragons',
+                  url: 'http://music.163.com/song/media/outer/url?id=19945727.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            
+            {
+                  name: 'Bones',
+                  artist: 'Imagine Dragons',
+                  url: 'http://music.163.com/song/media/outer/url?id=1927389937.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '东方之珠',
+                  artist: '罗大佑',
+                  url: 'http://music.163.com/song/media/outer/url?id=108653.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+
+
+
+
+
+
+            // {
+            //       name: '',
+            //       artist: '',
+            //       url: '',
+            //       cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            // },
+
 
 
 
