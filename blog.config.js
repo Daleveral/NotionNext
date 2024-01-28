@@ -563,7 +563,24 @@ const BLOG = {
                   url: 'http://music.163.com/song/media/outer/url?id=108653.mp3',
                   cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
             },
-
+            {
+                  name: '漠河舞厅',
+                  artist: '柳爽',
+                  url: 'http://music.163.com/song/media/outer/url?id=1894094482.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: '杀死那个石家庄人',
+                  artist: '万能青年旅店',
+                  url: 'http://music.163.com/song/media/outer/url?id=386844.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
+            {
+                  name: 'The Spectre',
+                  artist: 'Alan Walker',
+                  url: 'http://music.163.com/song/media/outer/url?id=1398324033.mp3',
+                  cover: 'https://pic.imgdb.cn/item/65447a2cc458853aef4730c5.png'
+            },
 
 
 
