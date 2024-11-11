@@ -20,7 +20,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'return \'all right\'',
   HEO_HERO_TITLE_4: 'L\'Internationale',
   HEO_HERO_TITLE_5: 'Sera le genre humain',
-  HEO_HERO_TITLE_LINK: 'https://github.com/Daleveral',
+  HEO_HERO_TITLE_LINK: '/',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: 'National Geographic', url: 'https://www.nationalgeographic.com/' },
@@ -112,8 +112,8 @@ const CONFIG = {
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: 'After long years',
-  HEO_SOCIAL_CARD_TITLE_2: 'How shall i greet thee',
-  HEO_SOCIAL_CARD_TITLE_3: 'NotionNext 开源项目, 搭建你的个人网页 ! ',
+  HEO_SOCIAL_CARD_TITLE_2: 'How should i greet thee',
+  HEO_SOCIAL_CARD_TITLE_3: 'NotionNext 开源项目, 搭建你的个人网页 ~ ',
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/about',
 
   // *****  以下配置无效，只是预留开发 ****
