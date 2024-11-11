@@ -161,7 +161,7 @@ const BLOG = {
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
+  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '皖ICP备2024057778号-1', // 备案号 
 
   // START********代码相关********
   // PrismJs 代码相关
@@ -334,6 +334,12 @@ const BLOG = {
           name: '王都グランセル',
           artist: 'Falcom Sound Team jdk',
           url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+          cover: '/aplayer.png'
+    },
+    {
+          name: 'Bohemian Rhapsody',
+          artist: 'Queen',
+          url: 'http://music.163.com/song/media/outer/url?id=1868553.mp3',
           cover: '/aplayer.png'
     },
     {

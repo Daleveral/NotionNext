@@ -36,9 +36,9 @@ const Footer = ({ title }) => {
             className='underline font-bold dark:text-gray-300 '>
             {siteConfig('AUTHOR')}
           </a>
-          &nbsp;&nbsp;&nbsp;
-          <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024057778号-1</a>
-          .
+
+          {/* &nbsp;&nbsp;&nbsp;
+          <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024057778号-1</a> */}
         </div>
 
         <div id='footer-bottom-right'>
