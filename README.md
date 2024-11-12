@@ -1,5 +1,5 @@
 - NotionNext 博客主页
-- 更新于 11/11/2024 , 与云服务器内容一致
+- 更新于 11/12/2024 , 与云服务器内容一致
 - 服务器主站 : https://www.dalechu.cn
 - Vercel 镜像站 : https://www.epicurus.fun
 
@@ -25,7 +25,7 @@ vim /etc/docker/daemon.json
 
 <br/>
 
-拉取镜像 :
+拉取 [我的 NotionNext 镜像](https://github.com/daleveral/NotionNext/pkgs/container/notionnext) :
 ```shell
 docker pull ghcr.io/daleveral/notionnext:main  # 常规 
 ```

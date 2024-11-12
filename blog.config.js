@@ -343,6 +343,12 @@ const BLOG = {
           cover: '/aplayer.png'
     },
     {
+          name: 'Episode 33',
+          artist: 'She Her Her Hers',
+          url: 'http://music.163.com/song/media/outer/url?id=1311427648.mp3',
+          cover: '/aplayer.png'
+    },
+    {
           name: 'Only Time',
           artist: 'Enya',
           url: 'http://music.163.com/song/media/outer/url?id=29470947.mp3',
@@ -451,6 +457,12 @@ const BLOG = {
           cover: '/aplayer.png'
     },
     {
+          name: 'Take Me Home Country Roads',
+          artist: 'John Denver',
+          url: 'http://music.163.com/song/media/outer/url?id=27448352.mp3',
+          cover: '/aplayer.png'
+    },
+    {
           name: 'Color Blind',
           artist: 'Matt B',
           url: 'http://music.163.com/song/media/outer/url?id=1910991521.mp3',
@@ -514,6 +526,12 @@ const BLOG = {
           name: 'Iridescent',
           artist: 'Linkin Park',
           url: 'http://music.163.com/song/media/outer/url?id=25639052.mp3',
+          cover: '/aplayer.png'
+    },
+    {
+          name: 'Komorebi',
+          artist: 'm-taku',
+          url: 'http://music.163.com/song/media/outer/url?id=29803287.mp3',
           cover: '/aplayer.png'
     },
     {
