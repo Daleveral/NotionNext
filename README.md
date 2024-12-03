@@ -1,10 +1,8 @@
-- NotionNext 博客主页
-- 更新于 11/12/2024 , 与云服务器内容一致
-- 服务器主站 : https://www.dalechu.cn
-- Vercel 镜像站 : https://www.epicurus.fun
-
+- NotionNext Blog
+- Forked from [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
+- 此仓库对应服务器主站 : https://www.dalechu.cn/
+- [试验仓库](https://github.com/Dalecuc/NotionNext) 对应 Vercel 镜像站 : https://www.epicurus.fun
 ---
-<br/>
 <br/>
 
 <p align="center">
@@ -16,22 +14,26 @@ Debian 安装 docker :
 apt update && apt install -y docker.io docker-compose jq
 ```
 
-docker 换源, 自行写入最新可用站点 :
+docker 换源, 自行写入最新可用镜像 :
 ```shell
 vim /etc/docker/daemon.json
 ```
 
 
-
 <br/>
 
 拉取 [我的 NotionNext 镜像](https://github.com/daleveral/NotionNext/pkgs/container/notionnext) :
-```shell
-docker pull ghcr.io/daleveral/notionnext:main  # 常规 
-```
+
+常规 : 
 
 ```shell
-docker pull ghcr.linkos.org/daleveral/notionnext:main  # 加速
+docker pull ghcr.io/daleveral/notionnext:main  
+```
+
+加速镜像 : 
+
+```shell
+docker pull ghcr.linkos.org/daleveral/notionnext:main
 ```
 
 <br/>
@@ -54,3 +56,4 @@ docker images
 ```shell
 docker run --name NotionNext -d -p=3000:3000 notionnext:latest 
 ```
+
