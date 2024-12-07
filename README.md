@@ -1,6 +1,6 @@
 - NotionNext Blog
 - Forked from [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
-- 此仓库对应服务器主站 : https://www.dalechu.cn/
+- 此仓库对应服务器主站 : https://www.dalechu.cn/ 和 Vercel 站 https://for.epicurus.fun/
 - [试验仓库](https://github.com/Dalecuc/NotionNext) 对应 Vercel 镜像站 : https://www.epicurus.fun
 ---
 <br/>
