@@ -38,6 +38,8 @@ const Footer = () => {
             <CopyRightDate />
             <a
               href={'/about'}
+              target='_blank'
+              rel='noopener noreferrer'
               className='underline font-semibold dark:text-gray-300 '>
               {siteConfig('AUTHOR')}
             </a>
@@ -49,7 +51,7 @@ const Footer = () => {
           {BEI_AN && (
             <>
               <i className='fas fa-shield-alt' />{' '}
-              <a href={BEI_AN_LINK} className='mr-2'>
+              <a href={BEI_AN_LINK} className='mr-2' target='_blank' rel='noopener noreferrer'>
                 {siteConfig('BEI_AN')}
               </a>
             </>
