@@ -57,8 +57,8 @@ const CONFIG = {
       title_1: 'ps',
       img_1: '/images/heo/ps.webp',
       color_1: '#176fcc',
-      title_2: 'wireshark',
-      img_2: '/images/heo/wireshark.webp',
+      title_2: 'arch',
+      img_2: '/images/heo/arch.webp',
       color_2: '#ffa53d'
     },
     {
