@@ -45,6 +45,7 @@ const Player = () => {
           fixed: true,
           lrcType: lrcType,
           autoplay: autoPlay,
+          listMaxHeight: '500px',
           order: order,
           audio: audio
         })
@@ -71,7 +72,6 @@ const Player = () => {
         <meting-js
           fixed='true'
           type='playlist'
-          listMaxHeight='500px'
           preload='auto'
           api={siteConfig(
             'MUSIC_PLAYER_METING_API',
