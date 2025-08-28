@@ -7,6 +7,8 @@
 
 - Vercel 镜像 : blog2025-mu.vercel.app
 
+- BTW, notion 纯 sb
+
 ---
 
 <br/>
