@@ -45,6 +45,7 @@ const Player = () => {
           fixed: true,
           lrcType: lrcType,
           autoplay: autoPlay,
+          listMaxHeight: '500px',
           order: order,
           audio: audio
         })
@@ -64,7 +65,7 @@ const Player = () => {
       <link
         rel='stylesheet'
         type='text/css'
-        href='https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css'
+        href='https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/cssv3.css'
       />
       {meting ? (
         <meting-js
