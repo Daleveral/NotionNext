@@ -56,8 +56,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             href={CONTACT_LINKEDIN}
-            title={'linkIn'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-linkedin dark:hover:text-indigo-400 hover:text-indigo-600' />
+            title={'mastodon'}>
+            <i className='transform hover:scale-125 duration-150 fab fa-mastodon dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_WEIBO && (

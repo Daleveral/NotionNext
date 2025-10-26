@@ -56,66 +56,66 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'ps',
+      title_1: 'Photoshop',
       img_1: '/images/heo/ps.webp',
       color_1: '#176fcc',
-      title_2: 'arch',
+      title_2: 'Arch Linux',
       img_2: '/images/heo/arch.webp',
       color_2: '#ffa53d'
     },
     {
-      title_1: 'ubuntu',
-      img_1: '/images/heo/ubuntu.webp',
-      color_1: '#f47421',
-      title_2: 'idea',
-      img_2: '/images/heo/idea.webp',
-      color_2: '#ffffff'
-    },
-    {
-      title_1: 'VMWare',
-      img_1: '/images/heo/vmware.webp',
+      title_1: 'Debian',
+      img_1: '/images/heo/debian.webp',
       color_1: '#ffffff',
-      title_2: 'html',
-      img_2: '/images/heo/html.webp',
-      color_2: '#e9572b'
-    },
-    {
-      title_1: 'code',
-      img_1: '/images/heo/code.webp',
-      color_1: '#32cfb0',
-      title_2: 'docker',
+      title_2: 'Docker',
       img_2: '/images/heo/docker.webp',
       color_2: '#57b6e6'
     },
     {
-      title_1: 'css',
+      title_1: 'Obsidian',
+      img_1: '/images/heo/obsidian.webp',
+      color_1: '#9f9fee',
+      title_2: 'HTML5',
+      img_2: '/images/heo/html.webp',
+      color_2: '#e9572b'
+    },
+    {
+      title_1: 'Visual Studio Code',
+      img_1: '/images/heo/code.webp',
+      color_1: '#32cfb0',
+      title_2: 'ChatGPT',
+      img_2: '/images/heo/chatgpt.webp',
+      color_2: '#ffffff'
+    },
+    {
+      title_1: 'CSS',
       img_1: '/images/heo/css.webp',
       color_1: '#101e9e',
-      title_2: 'git',
+      title_2: 'Git',
       img_2: '/images/heo/git.webp',
       color_2: '#ffaa00'
     },
     {
-      title_1: 'JS',
+      title_1: 'JavaScript',
       img_1: '/images/heo/js.webp',
       color_1: '#f7cb4f',
-      title_2: 'mysql',
-      img_2: '/images/heo/mysql.webp',
+      title_2: 'VMware',
+      img_2: '/images/heo/vmware.webp',
       color_2: '#9f9fee'
     },
     {
-      title_1: 'python',
+      title_1: 'Python',
       img_1: '/images/heo/python.webp',
       color_1: '#ffffff',
-      title_2: 'matlab',
-      img_2: '/images/heo/matlab.webp',
+      title_2: 'Burp Suite',
+      img_2: '/images/heo/burp.webp',
       color_2: '#edd3ff'
     }
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: 'After long years',
-  HEO_SOCIAL_CARD_TITLE_2: 'How should i greet thee',
+  HEO_SOCIAL_CARD_TITLE_2: 'How should I greet thee',
   HEO_SOCIAL_CARD_TITLE_3: 'NotionNext 开源项目, 搭建你的个人网页 ~ ',
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/about',
 

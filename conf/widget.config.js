@@ -61,12 +61,12 @@ module.exports = {
           url: 'http://music.163.com/song/media/outer/url?id=1868553.mp3',
           cover: '/images/aplayer.png'
     },
-    {
-          name: 'On a Slow Boat to China',
-          artist: 'Luke Thompson',
-          url: 'http://music.163.com/song/media/outer/url?id=27591140.mp3',
-          cover: '/images/aplayer.png'
-    },
+//     {
+//           name: 'On a Slow Boat to China',
+//           artist: 'Luke Thompson',
+//           url: 'http://music.163.com/song/media/outer/url?id=27591140.mp3',
+//           cover: '/images/aplayer.png'
+//     },
     {
           name: 'Liekkas',
           artist: 'Sofia Jannok',
@@ -91,12 +91,12 @@ module.exports = {
           url: 'http://music.163.com/song/media/outer/url?id=16686470.mp3',
           cover: '/images/aplayer.png'
     },
-    {
-          name: 'You',
-          artist: 'Approaching Nirvana',
-          url: 'http://music.163.com/song/media/outer/url?id=1891437743.mp3',
-          cover: '/images/aplayer.png'
-    },
+//     {
+//           name: 'You',
+//           artist: 'Approaching Nirvana',
+//           url: 'http://music.163.com/song/media/outer/url?id=1891437743.mp3',
+//           cover: '/images/aplayer.png'
+//     },
     {
           name: 'In My Life',
           artist: 'The Beatles',
@@ -127,12 +127,12 @@ module.exports = {
           url: 'http://music.163.com/song/media/outer/url?id=27937466.mp3',
           cover: '/images/aplayer.png'
     },
-    {
-          name: 'You Raise Me Up',
-          artist: 'Westlife',
-          url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
-          cover: '/images/aplayer.png'
-    },
+//     {
+//           name: 'You Raise Me Up',
+//           artist: 'Westlife',
+//           url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
+//           cover: '/images/aplayer.png'
+//     },
     {
           name: 'Mr.Moustafa',
           artist: 'Alexandre Desplat',
@@ -145,12 +145,12 @@ module.exports = {
           url: 'http://music.163.com/song/media/outer/url?id=1210496.mp3',
           cover: '/images/aplayer.png'
     },
-    {
-          name: 'Take Me Home Country Roads',
-          artist: 'John Denver',
-          url: 'http://music.163.com/song/media/outer/url?id=27448352.mp3',
-          cover: '/images/aplayer.png'
-    },
+//     {
+//           name: 'Take Me Home Country Roads',
+//           artist: 'John Denver',
+//           url: 'http://music.163.com/song/media/outer/url?id=27448352.mp3',
+//           cover: '/images/aplayer.png'
+//     },
     {
           name: 'Color Blind',
           artist: 'Matt B',
@@ -241,12 +241,12 @@ module.exports = {
           url: 'http://music.163.com/song/media/outer/url?id=1357379611.mp3',
           cover: '/images/aplayer.png'
     },
-    {
-          name: 'Here with You',
-          artist: 'Asher Monroe',
-          url: 'http://music.163.com/song/media/outer/url?id=27583305.mp3',
-          cover: '/images/aplayer.png'
-    },
+//     {
+//           name: 'Here with You',
+//           artist: 'Asher Monroe',
+//           url: 'http://music.163.com/song/media/outer/url?id=27583305.mp3',
+//           cover: '/images/aplayer.png'
+//     },
     {
           name: 'Imagine',
           artist: 'John Lennon',
@@ -320,13 +320,12 @@ module.exports = {
           url: 'http://music.163.com/song/media/outer/url?id=441491828.mp3',
           cover: '/images/aplayer.png'
     },
-
-    {
-          name: 'Look At Me Now',
-          artist: 'Charlie Puth',
-          url: 'http://music.163.com/song/media/outer/url?id=28188171.mp3',
-          cover: '/images/aplayer.png'
-    },
+//     {
+//           name: 'Look At Me Now',
+//           artist: 'Charlie Puth',
+//           url: 'http://music.163.com/song/media/outer/url?id=28188171.mp3',
+//           cover: '/images/aplayer.png'
+//     },
     {
           name: 'Brought Up That Way',
           artist: 'Taylor Swift',

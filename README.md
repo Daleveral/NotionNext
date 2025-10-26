@@ -46,7 +46,7 @@ docker tag ghcr.io/daleveral/notionnext:main notionnext:latest
 
 ```shell
 docker images
-docker rmi ghcr.linkos.org/daleveral/notionnext:main
+docker rmi ghcr.io/daleveral/notionnext:main
 docker images
 ```
 
@@ -67,10 +67,8 @@ docker run --name notionnext -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR notionn
 <p align="center"> <b>对 NotionNext 的更改 </b> </p>
 
 - Aplayer 音乐播放器 : 
-    - 歌单放置在单独的 [musiclist.js](./musiclist.js) 文件中
     - 使用修改后的 aplayer 相关 [css](https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/cssv3.css) 和 [js](https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/jsv2.js) 来美化播放器
 - Heo 主题 :
-    - 外链都在新标签页打开
     - "最新发布" 的文章列表以发布日期排列, 而非更新日期
     - 首页斜向滚动的技能图标更改了一部分
     - 更改暗色模式下一些组件的配色
