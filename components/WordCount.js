@@ -13,11 +13,11 @@ export default function WordCount({ wordCount, readTime }) {
         <span>{locale.COMMON.WORD_COUNT}</span>&nbsp;
         <span id='wordCount'>{wordCount}</span>
       </span>
-      <span className='flex whitespace-nowrap items-center'>
+      {/* <span className='flex whitespace-nowrap items-center'>
         <i className='mr-1 fas fa-clock' />
         <span>{locale.COMMON.READ_TIME}≈</span>&nbsp;
         <span id='readTime'>{readTime}</span>&nbsp;{locale.COMMON.MINUTE}
-      </span>
+      </span> */}
     </span>
   )
 }

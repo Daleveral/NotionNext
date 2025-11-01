@@ -18,24 +18,35 @@ import CONFIG from '../config'
 const Hero = props => {
   const HEO_HERO_REVERSE = siteConfig('HEO_HERO_REVERSE', false, CONFIG)
   return (
-    <div
-      id='hero-wrapper'
-      className='recent-top-post-group w-full overflow-hidden select-none px-5 mb-4'>
+    <>
+      <style jsx>{`
+        /* 在手机竖屏时隐藏 hero-wrapper，让下面的帖子内容顶上来 */
+        @media (max-width: 640px) and (orientation: portrait) {
+          #hero-wrapper {
+            display: none;
+          }
+        }
+      `}</style>
+
       <div
-        id='hero'
-        style={{ zIndex: 1 }}
-        className={`${HEO_HERO_REVERSE ? 'xl:flex-row-reverse' : ''}
-           recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex relative`}>
-        {/* 左侧banner组 */}
-        <BannerGroup {...props} />
+        id='hero-wrapper'
+        className='recent-top-post-group w-full overflow-hidden select-none px-5 mb-4'>
+        <div
+          id='hero'
+          style={{ zIndex: 1 }}
+          className={`${HEO_HERO_REVERSE ? 'xl:flex-row-reverse' : ''}
+             recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex relative`}>
+          {/* 左侧banner组 */}
+          <BannerGroup {...props} />
 
-        {/* 中间留白 */}
-        <div className='px-1.5 h-full'></div>
+          {/* 中间留白 */}
+          <div className='px-1.5 h-full'></div>
 
-        {/* 右侧置顶文章组 */}
-        <TopGroup {...props} />
+          {/* 右侧置顶文章组 */}
+          <TopGroup {...props} />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
