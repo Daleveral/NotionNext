@@ -21,7 +21,7 @@ const Player = () => {
   const musicMetingEnable = siteConfig('MUSIC_PLAYER_METING')
   const musicMetingCDNUrl = siteConfig(
     'MUSIC_PLAYER_METING_CDN_URL',
-    'https://cdnjs.cloudflare.com/ajax/libs/meting/2.0.1/Meting.min.js'
+    'https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/cssv3.css'
   )
 
   const initMusicPlayer = async () => {
@@ -45,7 +45,6 @@ const Player = () => {
           fixed: true,
           lrcType: lrcType,
           autoplay: autoPlay,
-          listMaxHeight: '500px',
           order: order,
           audio: audio
         })
@@ -65,7 +64,7 @@ const Player = () => {
       <link
         rel='stylesheet'
         type='text/css'
-        href='https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/cssv3.css'
+        href='https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css'
       />
       {meting ? (
         <meting-js

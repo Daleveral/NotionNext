@@ -1,0 +1,298 @@
+/**
+ * 主题切换面板 — 集中配置（与 themes/<id> 目录名对应）
+ *
+ * 字段说明：
+ * - name    展示名称（缺省则自动格式化为目录名的 Title Case）
+ * - summary 简短简介，展示在卡片标题下方
+ * - cover   预览图 URL（缺省 /images/themes-preview/<id>.png）
+ * - coverWebp 可选；缺省 /images/themes-preview/<id>.webp，设为 '' 可跳过 webp 仅用 cover
+ * - tier    可选；'free' | 'paid'，缺省为 'free'。面板展示对应标签，为后续付费主题预留。
+ */
+
+/** @type {Record<string, { name?: string, summary?: string, cover?: string, coverWebp?: string, rootId?: string, tier?: 'free' | 'paid', settings?: Array<{ key: string, label: string, type: 'boolean' | 'text' | 'number' | 'select', defaultValue: string | number | boolean, options?: Array<{ label: string, value: string | number | boolean }> }>, palette?: Array<{ key: string, cssVar: string, label: string, defaultValue: string }> }>} */
+export const THEME_SWITCH_MANIFEST = {
+  matery: {
+    name: 'Matery',
+    summary: '卡片式列表与 Material 质感组件。',
+    palette: [
+      { key: 'MATERY_COLOR_PRIMARY', cssVar: '--matery-color-primary', label: '主色', defaultValue: '#4338ca' },
+      { key: 'MATERY_COLOR_PRIMARY_LIGHT', cssVar: '--matery-color-primary-light', label: '浅主色', defaultValue: '#818cf8' },
+      { key: 'MATERY_COLOR_BG', cssVar: '--matery-color-bg', label: '页面背景', defaultValue: '#f5f5f5' }
+    ]
+  },
+  heo: {
+    name: 'Heo',
+    summary: '致敬张洪Heo,丰富的 模块化组件。',
+    palette: [
+      { key: 'HEO_COLOR_PRIMARY', cssVar: '--heo-color-primary', label: '主色', defaultValue: '#4f65f0' },
+      { key: 'HEO_COLOR_PRIMARY_HOVER', cssVar: '--heo-color-primary-hover', label: '主色 hover', defaultValue: '#4f46e5' },
+      { key: 'HEO_COLOR_PRIMARY_TEXT', cssVar: '--heo-color-primary-text', label: '主色文字', defaultValue: '#ffffff' },
+      { key: 'HEO_COLOR_ACCENT', cssVar: '--heo-color-accent', label: '强调色', defaultValue: '#ca8a04' },
+      { key: 'HEO_COLOR_BG', cssVar: '--heo-color-bg', label: '页面背景', defaultValue: '#f7f9fe' },
+      { key: 'HEO_COLOR_CARD', cssVar: '--heo-color-card', label: '卡片背景', defaultValue: '#ffffff' },
+      { key: 'HEO_COLOR_CARD_MUTED', cssVar: '--heo-color-card-muted', label: '弱背景', defaultValue: '#f1f3f8' },
+      { key: 'HEO_COLOR_BORDER', cssVar: '--heo-color-border', label: '边框', defaultValue: '#4f46e5' },
+      { key: 'HEO_COLOR_TEXT', cssVar: '--heo-color-text-light', label: '主文字', defaultValue: '#000000' },
+      { key: 'HEO_COLOR_TEXT_SECONDARY', cssVar: '--heo-color-text-secondary-light', label: '次级文字', defaultValue: '#4b5563' },
+      { key: 'HEO_COLOR_BG_DARK', cssVar: '--heo-color-bg-dark', label: '深色模式：页面背景', defaultValue: '#18171d' },
+      { key: 'HEO_COLOR_CARD_DARK', cssVar: '--heo-color-card-dark', label: '深色模式：卡片背景', defaultValue: '#1e1e1e' },
+      { key: 'HEO_COLOR_BORDER_DARK', cssVar: '--heo-color-border-dark', label: '深色模式：强调边框', defaultValue: '#ca8a04' },
+      { key: 'HEO_COLOR_TEXT_DARK', cssVar: '--heo-color-text-dark', label: '深色模式：主文字', defaultValue: '#f3f4f6' },
+      { key: 'HEO_COLOR_TEXT_SECONDARY_DARK', cssVar: '--heo-color-text-secondary-dark', label: '深色模式：次级文字', defaultValue: '#d1d5db' }
+    ]
+  },
+  hexo: {
+    name: 'Hexo',
+    summary: '类 Hexo 经典博客结构与侧边栏。',
+    palette: [
+      { key: 'HEXO_COLOR_PRIMARY', cssVar: '--hexo-color-primary-light', label: '主色', defaultValue: '#928CEE' },
+      { key: 'HEXO_COLOR_BG', cssVar: '--hexo-color-bg-light', label: '页面背景', defaultValue: '#f5f5f5' },
+      { key: 'HEXO_COLOR_CARD', cssVar: '--hexo-color-card-light', label: '卡片背景', defaultValue: '#ffffff' },
+      { key: 'HEXO_COLOR_TITLE', cssVar: '--hexo-color-title-light', label: '标题文字', defaultValue: '#4b5563' },
+      { key: 'HEXO_COLOR_TEXT', cssVar: '--hexo-color-text-light', label: '正文文字', defaultValue: '#374151' },
+      { key: 'HEXO_COLOR_TEXT_SECONDARY', cssVar: '--hexo-color-text-secondary-light', label: '次级文字', defaultValue: '#9ca3af' },
+      { key: 'HEXO_COLOR_BORDER', cssVar: '--hexo-color-border-light', label: '边框', defaultValue: '#e5e7eb' },
+      { key: 'HEXO_COLOR_PRIMARY_DARK', cssVar: '--hexo-color-primary-dark', label: '深色模式：主色', defaultValue: '#928CEE' },
+      { key: 'HEXO_COLOR_BG_DARK', cssVar: '--hexo-color-bg-dark', label: '深色模式：页面背景', defaultValue: '#000000' },
+      { key: 'HEXO_COLOR_CARD_DARK', cssVar: '--hexo-color-card-dark', label: '深色模式：卡片背景', defaultValue: '#101414' },
+      { key: 'HEXO_COLOR_TITLE_DARK', cssVar: '--hexo-color-title-dark', label: '深色模式：标题文字', defaultValue: '#f3f4f6' },
+      { key: 'HEXO_COLOR_TEXT_DARK', cssVar: '--hexo-color-text-dark', label: '深色模式：正文文字', defaultValue: '#d1d5db' },
+      { key: 'HEXO_COLOR_TEXT_SECONDARY_DARK', cssVar: '--hexo-color-text-secondary-dark', label: '深色模式：次级文字', defaultValue: '#6b7280' },
+      { key: 'HEXO_COLOR_BORDER_DARK', cssVar: '--hexo-color-border-dark', label: '深色模式：边框', defaultValue: '#000000' }
+    ]
+  },
+  plog: {
+    name: 'Plog',
+    summary: '偏图片与轻量图文化展示。',
+    palette: [
+      { key: 'PLOG_COLOR_PRIMARY', cssVar: '--plog-color-primary', label: '主色', defaultValue: '#1d4ed8' }
+    ]
+  },
+}
+
+const THEME_CONFIGS = {
+  heo: heoConfig,
+  hexo: hexoConfig,
+  matery: materyConfig,
+  plog: plogConfig
+}
+function inferThemeSettings(themeId, manualSettings = []) {
+  const config = THEME_CONFIGS[themeId] || {}
+  const manualKeys = new Set(manualSettings.map(item => item.key))
+  return Object.entries(config)
+    .filter(([key, value]) => {
+      if (manualKeys.has(key)) return false
+      if (/_COLOR(?:_|$)|_THEME_COLOR(?:_|$)/.test(key)) return false
+      return ['boolean', 'string', 'number'].includes(typeof value)
+    })
+    .map(([key, value]) => normalizeSetting({
+      key,
+      label: formatConfigLabel(key, themeId),
+      type: typeof value === 'boolean' ? 'boolean' : typeof value === 'number' ? 'number' : 'text',
+      defaultValue: value
+    }, themeId))
+}
+
+const SELECT_OPTIONS_BY_KEY = {
+  NEXT_NAV_TYPE: [
+    { label: '固定顶部', value: 'fixed' },
+    { label: '滚动收起', value: 'autoCollapse' },
+    { label: '普通导航', value: 'normal' }
+  ]
+}
+
+const CONFIG_LABEL_WORDS = {
+  ABOUT: '关于',
+  AD: '广告',
+  ADSENSE: 'Adsense',
+  ANALYTICS: '统计',
+  ARCHIVE: '归档',
+  AUTO: '自动',
+  BACKGROUND: '背景',
+  BANNER: '横幅',
+  BLOG: '博客',
+  BOOK: '文档',
+  BUTTON: '按钮',
+  CACHE: '缓存',
+  CAREER: '职业经历',
+  CATEGORY: '分类',
+  COLLAPSE: '收起',
+  COMMENT: '评论',
+  CONTACT: '联系',
+  COUNT: '数量',
+  COVER: '封面',
+  CTA: '行动按钮',
+  DARK: '深色模式',
+  DEFAULT: '默认',
+  DETAIL: '详情',
+  ENABLE: '启用',
+  FAQ: '常见问题',
+  FEATURE: '特性',
+  FIXED: '固定',
+  FORCE: '强制',
+  HEADER: '标题',
+  HERO: '首屏',
+  HIDDEN: '隐藏',
+  HOME: '首页',
+  HOVER: '悬停',
+  IMAGE: '图片',
+  IMG: '图片',
+  INDEX: '首页',
+  LATEST: '最新文章',
+  LAYOUT: '布局',
+  LEVEL3: '三级目录',
+  LIST: '列表',
+  MAPS: '地图',
+  MENU: '菜单',
+  MINIMAL: '极简',
+  MODE: '模式',
+  NAME: '名称',
+  NAV: '导航',
+  NOTION: 'Notion',
+  PAGE: '页面',
+  PERSIST: '持久化',
+  POST: '文章',
+  POSTS: '文章',
+  PREVIEW: '预览',
+  PRICING: '价格',
+  RANDOM: '随机文章',
+  README: 'README',
+  RECOMMEND: '推荐',
+  REDIRECT: '重定向',
+  RSS: '订阅',
+  SEARCH: '搜索',
+  SHOW: '显示',
+  SORT: '排序',
+  SUMMARY: '摘要',
+  TAG: '标签',
+  TESTIMONIALS: '评价',
+  TEXT: '文字',
+  TITLE: '标题',
+  TO: '跳转',
+  TOC: '目录',
+  TOP: '顶部',
+  TYPE: '类型',
+  UPDATE: '更新',
+  URL: '链接',
+  VERTICAL: '上下布局',
+  WIDGET: '悬浮工具',
+  WWADS: '万维广告'
+}
+
+const CONFIG_HELP_RULES = [
+  [/MENU_(CATEGORY|TAG|ARCHIVE|SEARCH|RSS|INDEX|HOME)/, '控制导航菜单中是否显示该入口。'],
+  [/POST_LIST_COVER/, '控制文章列表卡片是否显示封面图。'],
+  [/POST_LIST_(SUMMARY|PREVIEW)/, '控制文章列表是否显示摘要或正文预览。'],
+  [/COVER_DEFAULT|COVER_FORCE/, '控制缺少封面时是否使用默认封面。'],
+  [/WIDGET_/, '控制主题悬浮工具或侧边栏组件是否显示。'],
+  [/HOME_.*ENABLE|HERO_ENABLE|BANNER_ENABLE/, '控制首页对应模块是否显示。'],
+  [/COUNT$/, '控制当前模块展示的条目数量。'],
+  [/NAV_TYPE$/, '控制导航栏的固定和滚动行为。'],
+  [/LAYOUT_VERTICAL$/, '控制文章页使用上下布局还是左右布局。'],
+  [/REDIRECT_ENABLE$/, '控制文章地址是否启用重定向。'],
+  [/CACHE_ENABLED|PERSIST_ENABLED/, '控制浏览器本地缓存或持久化能力。']
+]
+
+function normalizeSetting(item, themeId) {
+  const options = item.options || inferSelectOptions(item)
+  return {
+    ...item,
+    label: item.label || formatConfigLabel(item.key, themeId),
+    help: item.help || formatConfigHelp(item.key),
+    type: options ? 'select' : item.type,
+    options
+  }
+}
+
+function inferSelectOptions(item) {
+  if (SELECT_OPTIONS_BY_KEY[item.key]) return SELECT_OPTIONS_BY_KEY[item.key]
+  if (typeof item.defaultValue === 'string' && /^(true|false)$/i.test(item.defaultValue)) {
+    return [
+      { label: '开启', value: 'true' },
+      { label: '关闭', value: 'false' }
+    ]
+  }
+  return null
+}
+
+function formatConfigHelp(key) {
+  const rule = CONFIG_HELP_RULES.find(([pattern]) => pattern.test(key))
+  if (rule) return rule[1]
+  if (/_ENABLE$/.test(key)) return '控制该模块是否启用。'
+  if (/_TEXT$|_TITLE$|_NAME$/.test(key)) return '控制页面上显示的文字内容。'
+  if (/_URL$/.test(key)) return '控制点击后跳转的链接地址。'
+  return '主题基础配置，修改后可实时预览并复制到 Notion Config。'
+}
+
+function formatConfigLabel(key, themeId) {
+  const prefix = `${String(themeId).toUpperCase()}_`
+  return key
+    .replace(prefix, '')
+    .split('_')
+    .filter(Boolean)
+    .map(word => CONFIG_LABEL_WORDS[word] || word.charAt(0) + word.slice(1).toLowerCase())
+    .join(' ')
+}
+
+/**
+ * @param {string} themeId themes 目录名
+ * @returns {{ id: string, name: string, summary: string, coverPng: string, coverWebp: string | null, rootId: string | undefined, tier: 'free' | 'paid', settings: Array<{ key: string, label: string, type: 'boolean' | 'text' | 'number' | 'select', defaultValue: string | number | boolean, options?: Array<{ label: string, value: string | number | boolean }> }>, palette: Array<{ key: string, cssVar: string, label: string, defaultValue: string }> }}
+ */
+export function getThemeSwitchMeta(themeId) {
+  const id = themeId == null ? '' : String(themeId).trim()
+  const row = THEME_SWITCH_MANIFEST[id] || {}
+
+  const tier = row.tier === 'paid' ? 'paid' : 'free'
+
+  const name =
+    typeof row.name === 'string' && row.name.trim()
+      ? row.name.trim()
+      : formatThemeId(id)
+
+  const summary =
+    typeof row.summary === 'string' ? row.summary.trim() : ''
+
+  const coverPng =
+    typeof row.cover === 'string' && row.cover.trim()
+      ? row.cover.trim()
+      : `/images/themes-preview/${id}.png`
+
+  let coverWebp = null
+  if (row.coverWebp === '') {
+    coverWebp = null
+  } else if (typeof row.coverWebp === 'string' && row.coverWebp.trim()) {
+    coverWebp = row.coverWebp.trim()
+  } else {
+    coverWebp = `/images/themes-preview/${id}.webp`
+  }
+
+  const palette = withBaseThemePalette(id, Array.isArray(row.palette) ? row.palette : [])
+  const manualSettings = Array.isArray(row.settings)
+    ? row.settings.map(item => normalizeSetting(item, id))
+    : []
+  const settings = manualSettings.concat(inferThemeSettings(id, manualSettings))
+
+  const rootId =
+    typeof row.rootId === 'string' && row.rootId.trim()
+      ? row.rootId.trim()
+      : undefined
+
+  return { id, name, summary, coverPng, coverWebp, rootId, tier, settings, palette }
+}
+
+export function formatThemeId(id) {
+  const s = id == null ? '' : String(id).trim()
+  if (!s) return ''
+  return s
+    .split(/[-_]/)
+    .filter(Boolean)
+    .map(p => p.charAt(0).toUpperCase() + p.slice(1))
+    .join(' ')
+}
+
+import heoConfig from '@/themes/heo/config'
+import hexoConfig from '@/themes/hexo/config'
+import { withBaseThemePalette } from '@/conf/themeColorPalette'
+import materyConfig from '@/themes/matery/config'
+import plogConfig from '@/themes/plog/config'
+

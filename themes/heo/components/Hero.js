@@ -18,35 +18,24 @@ import CONFIG from '../config'
 const Hero = props => {
   const HEO_HERO_REVERSE = siteConfig('HEO_HERO_REVERSE', false, CONFIG)
   return (
-    <>
-      <style jsx>{`
-        /* 在手机竖屏时隐藏 hero-wrapper，让下面的帖子内容顶上来 */
-        @media (max-width: 640px) and (orientation: portrait) {
-          #hero-wrapper {
-            display: none;
-          }
-        }
-      `}</style>
-
+    <div
+      id='hero-wrapper'
+      className='recent-top-post-group w-full overflow-hidden select-none px-5 mb-4'>
       <div
-        id='hero-wrapper'
-        className='recent-top-post-group w-full overflow-hidden select-none px-5 mb-4'>
-        <div
-          id='hero'
-          style={{ zIndex: 1 }}
-          className={`${HEO_HERO_REVERSE ? 'xl:flex-row-reverse' : ''}
-             recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex relative`}>
-          {/* 左侧banner组 */}
-          <BannerGroup {...props} />
+        id='hero'
+        style={{ zIndex: 1 }}
+        className={`${HEO_HERO_REVERSE ? 'xl:flex-row-reverse' : ''}
+           recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex relative`}>
+        {/* 左侧banner组 */}
+        <BannerGroup {...props} />
 
-          {/* 中间留白 */}
-          <div className='px-1.5 h-full'></div>
+        {/* 中间留白 */}
+        <div className='px-1.5 h-full'></div>
 
-          {/* 右侧置顶文章组 */}
-          <TopGroup {...props} />
-        </div>
+        {/* 右侧置顶文章组 */}
+        <TopGroup {...props} />
       </div>
-    </>
+    </div>
   )
 }
 
@@ -91,7 +80,7 @@ function Banner(props) {
     <div
       id='banners'
       onClick={handleClickBanner}
-      className='hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden'>
+        className='hidden xl:flex xl:flex-col group h-full bg-[var(--heo-color-card)] dark:bg-[var(--heo-color-card-dark)] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden'>
       <div
         id='banner-title'
         className='z-10 flex flex-col absolute top-10 left-10'>
@@ -113,7 +102,7 @@ function Banner(props) {
         id='banner-cover'
         style={{ backdropFilter: 'blur(15px)' }}
         className={
-          'z-20 rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
+          'z-20 rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[var(--heo-color-primary)] dark:bg-[var(--heo-color-accent)] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
         }>
         <div className='ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in'>
           <div className='text-7xl text-white font-extrabold'>{coverTitle}</div>
@@ -189,8 +178,7 @@ function GroupMenu() {
     <div className='h-[165px] select-none xl:h-20 flex flex-col justify-between xl:space-y-0 xl:flex-row w-28 lg:w-48 xl:w-full xl:flex-nowrap xl:space-x-3'>
       <SmartLink
         href={url_1}
-        target="_blank"
-        className='group relative overflow-hidden bg-gradient-to-r from-blue-500 to-blue-400 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in'>
+        className='group relative overflow-hidden bg-[var(--heo-color-primary)] flex h-20 justify-start items-center text-[var(--heo-color-primary-text)] rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in'>
         <div className='font-bold lg:text-lg  pl-5 relative -mt-2'>
           {title_1}
           <span className='absolute -bottom-0.5 left-5 w-5 h-0.5 bg-white rounded-full'></span>
@@ -201,7 +189,6 @@ function GroupMenu() {
       </SmartLink>
       <SmartLink
         href={url_2}
-        target="_blank"
         className='group relative overflow-hidden bg-gradient-to-r from-red-500 to-yellow-500 flex h-20 justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in'>
         <div className='font-bold lg:text-lg pl-5 relative -mt-2'>
           {title_2}
@@ -214,7 +201,6 @@ function GroupMenu() {
       {/* 第三个标签在小屏上不显示 */}
       <SmartLink
         href={url_3}
-        target="_blank"
         className='group relative overflow-hidden bg-gradient-to-r from-teal-300 to-cyan-300 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in'>
         <div className='font-bold text-lg pl-5 relative -mt-2'>
           {title_3}
@@ -261,11 +247,11 @@ function TopGroup(props) {
                   alt={p?.title}
                   src={p?.pageCoverThumbnail || siteInfo?.pageCover}
                 />
-                <div className='group-hover:text-indigo-600 dark:group-hover:text-yellow-600 line-clamp-2 overflow-hidden m-2 font-semibold'>
+                <div className='group-hover:text-[var(--heo-color-primary)] dark:group-hover:text-[var(--heo-color-accent)] line-clamp-2 overflow-hidden m-2 font-semibold'>
                   {p?.title}
                 </div>
                 {/* hover 悬浮的 ‘荐’ 字 */}
-                <div className='opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 duration-200 transition-all absolute -top-2 -left-2 bg-indigo-600 dark:bg-yellow-600  text-white rounded-xl overflow-hidden pr-2 pb-2 pl-4 pt-4 text-xs'>
+                <div className='opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 duration-200 transition-all absolute -top-2 -left-2 bg-[var(--heo-color-primary)] dark:bg-[var(--heo-color-accent)] text-[var(--heo-color-primary-text)] rounded-xl overflow-hidden pr-2 pb-2 pl-4 pt-4 text-xs'>
                   {locale.COMMON.RECOMMEND_BADGES}
                 </div>
               </div>
@@ -294,15 +280,15 @@ function getTopPosts({ latestPosts, allNavPages }) {
   // 显示包含‘推荐’标签的文章
   let sortPosts = []
 
-  // 排序方式
+  // 排序方式（本站自定义：改为按「发布时间」排序，不用最后修改时间）
   if (
     JSON.parse(
       siteConfig('HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME', null, CONFIG)
     )
   ) {
     sortPosts = Object.create(allNavPages).sort((a, b) => {
-      const dateA = new Date(a?.lastEditedDate)
-      const dateB = new Date(b?.lastEditedDate)
+      const dateA = new Date(a?.publishDate || a?.lastEditedDate)
+      const dateB = new Date(b?.publishDate || b?.lastEditedDate)
       return dateB - dateA
     })
   } else {
@@ -334,8 +320,10 @@ function TodayCard({ cRef, siteInfo }) {
   const router = useRouter()
   const link = siteConfig('HEO_HERO_TITLE_LINK', null, CONFIG)
   const { locale } = useGlobal()
-  // 卡牌是否盖住下层
-  const [isCoverUp, setIsCoverUp] = useState(true)
+  // 获取遮罩控制配置
+  const coverEnable = siteConfig('HEO_HERO_RECOMMEND_COVER_ENABLE', true, CONFIG)
+  // 卡牌是否盖住下层，如果配置为false则默认不盖住
+  const [isCoverUp, setIsCoverUp] = useState(coverEnable)
 
   /**
    * 外部可以调用此方法
@@ -343,7 +331,9 @@ function TodayCard({ cRef, siteInfo }) {
   useImperativeHandle(cRef, () => {
     return {
       coverUp: () => {
-        setIsCoverUp(true)
+        if (coverEnable) {
+          setIsCoverUp(true)
+        }
       }
     }
   })
@@ -363,6 +353,11 @@ function TodayCard({ cRef, siteInfo }) {
    */
   function handleCardClick(e) {
     router.push(link)
+  }
+
+  // 如果配置为不显示遮罩，则不渲染TodayCard
+  if (!coverEnable) {
+    return null
   }
 
   return (
@@ -410,7 +405,9 @@ function TodayCard({ cRef, siteInfo }) {
         {/* 封面图 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://picscdn.dalechu.cn/0.png" 
+          // 自定义首页“今日卡牌”封面图（旧版 ORI 使用自己的图床；想恢复成站点封面图就改回下面的 siteInfo?.pageCover）
+          // src={siteInfo?.pageCover}
+          src='https://picscdn.dalechu.cn/0.png'
           id='today-card-cover'
           className={`${
             isCoverUp ? '' : ' pointer-events-none'
